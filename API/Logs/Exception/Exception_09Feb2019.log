@@ -1,0 +1,25 @@
+09-Feb-2019 10:03:55
+Cannot insert the value NULL into column 'ProductId', table 'petzDb.dbo.ProductsSalesOrders'; column does not allow nulls. UPDATE fails.
+The statement has been terminated.
+_____________________________________________________
+
+09-Feb-2019 10:03:56
+A task was canceled.
+_____________________________________________________
+
+09-Feb-2019 10:07:13
+Cannot insert the value NULL into column 'ProductId', table 'petzDb.dbo.ProductsSalesOrders'; column does not allow nulls. UPDATE fails.
+The statement has been terminated.
+_____________________________________________________
+
+09-Feb-2019 10:09:42
+Cannot insert the value NULL into column 'ProductId', table 'petzDb.dbo.ProductsSalesOrders'; column does not allow nulls. UPDATE fails.
+The statement has been terminated.
+_____________________________________________________
+
+09-Feb-2019 10:35:00
+API.Controllers.ProductTypesController
+Cannot insert duplicate key row in object 'dbo.ProductTypes' with unique index 'IX_ProductTypeNameAndIsDeleted'. The duplicate key value is (mouse, 0).
+The statement has been terminated.
+_____________________________________________________
+

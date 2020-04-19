@@ -1,0 +1,86 @@
+﻿@model IEnumerable<ViewModels.Company>
+
+@{
+    ViewBag.Title = "View Companies";
+}
+
+
+<p class="text-muted m-t-0"><a href="@Url.Action("Create")"> <i class="fa fa-plus-circle"></i> Create New Company </a></p>
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="card">
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table id="CompanyTable" class="table">
+                        <thead>
+                            <tr>
+                                <th class="text-center" width="70">#</th>
+                                <th>@Html.DisplayNameFor(model => model.CompanyName)</th>
+                                <th>@Html.DisplayNameFor(model => model.PrimaryMobileNumber)</th>
+                                <th>@Html.DisplayNameFor(model => model.EmailId)</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @{
+                                int i = 0;
+                            }
+                            @foreach (var item in Model)
+                            {
+                                i++;
+                                <tr>
+                                    <td class="text-center"> @i</td>
+                                    <td>
+                                        @Html.ActionLink(item.CompanyName, "Details", new { id = item.CompanyId })
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.PrimaryMobileNumber)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.EmailId)
+                                    </td>
+                                    <td class="text-nowrap">
+                                        @using (Html.BeginForm())
+                                        {
+                                            @Html.AntiForgeryToken()
+                                            <a href="@Url.Action("Edit", new { id = item.CompanyId })" data-toggle="tooltip" data-original-title="Edit"> <i class="fa fa-pencil text-inverse m-r-10"></i></a>
+                                            <a id="deleteItem" class="deleteItem text-danger" href="javascript:void(0)" data-target="#modalConfirmation" data-toggle="modal" data-tooltip="tooltip" data-original-title="Delete" data-path="@Url.Action("Delete", "Companies", new { id = @item.CompanyId })"><span class="fa fa-close"></span></a>
+                                        }
+                                    </td>
+                                </tr>
+
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+
+    $(document).ready(function () {
+
+
+        $('#CompanyTable').dataTable({
+            'autoWidth': false,
+            "columns": [
+                {
+                    "searchable": false,
+                    "orderable": false
+                },
+                null,
+                null,
+                null,
+                {
+                    "searchable": false,
+                    "orderable": false
+                }
+            ]
+        });
+    });
+
+</script>

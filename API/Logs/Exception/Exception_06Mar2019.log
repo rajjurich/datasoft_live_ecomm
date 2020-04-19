@@ -1,0 +1,29 @@
+06-Mar-2019 07:22:02
+API.Controllers.PurchaseOrdersController
+Error converting data type datetime2 to datetime.
+_____________________________________________________
+
+06-Mar-2019 07:34:18
+API.Controllers.PurchaseOrdersController
+The INSERT statement conflicted with the FOREIGN KEY constraint "FK_dbo.PurchaseOrders_dbo.Vendors_VendorId". The conflict occurred in database "petzDb", table "dbo.Vendors", column 'VendorId'.
+The statement has been terminated.
+_____________________________________________________
+
+06-Mar-2019 07:37:14
+API.Controllers.PurchaseOrdersController
+The INSERT statement conflicted with the FOREIGN KEY constraint "FK_dbo.PurchaseOrders_dbo.Vendors_VendorId". The conflict occurred in database "petzDb", table "dbo.Vendors", column 'VendorId'.
+The statement has been terminated.
+_____________________________________________________
+
+06-Mar-2019 07:42:36
+API.Controllers.PurchaseOrdersController
+Cannot insert duplicate key row in object 'dbo.ProductsPurchaseOrders' with unique index 'IX_ProductId'. The duplicate key value is (1).
+The statement has been terminated.
+_____________________________________________________
+
+06-Mar-2019 07:46:38
+API.Controllers.PurchaseOrdersController
+Cannot insert duplicate key row in object 'dbo.ProductsPurchaseOrders' with unique index 'IX_ProductId'. The duplicate key value is (1).
+The statement has been terminated.
+_____________________________________________________
+

@@ -1,0 +1,161 @@
+13-Feb-2019 06:21:18
+access token null
+_____________________________________________________
+
+13-Feb-2019 06:21:32
+OK
+_____________________________________________________
+
+13-Feb-2019 06:21:32
+success
+_____________________________________________________
+
+13-Feb-2019 06:21:39
+OK
+_____________________________________________________
+
+13-Feb-2019 06:21:39
+success
+_____________________________________________________
+
+13-Feb-2019 06:27:21
+access token null
+_____________________________________________________
+
+13-Feb-2019 06:27:37
+OK
+_____________________________________________________
+
+13-Feb-2019 06:27:37
+success
+_____________________________________________________
+
+13-Feb-2019 06:29:09
+Web.Controllers.SalesOrdersController
+E:\Dropbox\projects\development\PETZ\Web\Views\SalesOrders\Details.cshtml(74): error CS1061: 'ProductsSalesOrder' does not contain a definition for 'CgstPercent' and no extension method 'CgstPercent' accepting a first argument of type 'ProductsSalesOrder' could be found (are you missing a using directive or an assembly reference?)
+_____________________________________________________
+
+13-Feb-2019 06:29:24
+access token null
+_____________________________________________________
+
+13-Feb-2019 06:29:48
+OK
+_____________________________________________________
+
+13-Feb-2019 06:29:48
+success
+_____________________________________________________
+
+13-Feb-2019 06:30:41
+OK
+_____________________________________________________
+
+13-Feb-2019 06:30:41
+success
+_____________________________________________________
+
+13-Feb-2019 06:34:18
+access token null
+_____________________________________________________
+
+13-Feb-2019 06:36:54
+access token null
+_____________________________________________________
+
+13-Feb-2019 06:37:05
+OK
+_____________________________________________________
+
+13-Feb-2019 06:37:05
+success
+_____________________________________________________
+
+13-Feb-2019 06:39:30
+OK
+_____________________________________________________
+
+13-Feb-2019 06:39:30
+success
+_____________________________________________________
+
+13-Feb-2019 06:43:40
+access token null
+_____________________________________________________
+
+13-Feb-2019 06:43:45
+OK
+_____________________________________________________
+
+13-Feb-2019 06:43:45
+success
+_____________________________________________________
+
+13-Feb-2019 07:00:42
+access token null
+_____________________________________________________
+
+13-Feb-2019 08:51:19
+access token null
+_____________________________________________________
+
+13-Feb-2019 08:54:34
+access token null
+_____________________________________________________
+
+13-Feb-2019 08:56:03
+access token null
+_____________________________________________________
+
+13-Feb-2019 09:01:18
+Web.Controllers.PetsController
+The view 'Index' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Pets/Index.aspx
+~/Views/Pets/Index.ascx
+~/Views/Shared/Index.aspx
+~/Views/Shared/Index.ascx
+~/Views/Pets/Index.cshtml
+~/Views/Pets/Index.vbhtml
+~/Views/Shared/Index.cshtml
+~/Views/Shared/Index.vbhtml
+_____________________________________________________
+
+13-Feb-2019 09:01:22
+access token null
+_____________________________________________________
+
+13-Feb-2019 09:01:50
+OK
+_____________________________________________________
+
+13-Feb-2019 09:01:50
+success
+_____________________________________________________
+
+13-Feb-2019 09:08:54
+access token null
+_____________________________________________________
+
+13-Feb-2019 09:12:43
+Web.Controllers.PetsController
+Object reference not set to an instance of an object.
+_____________________________________________________
+
+13-Feb-2019 09:12:52
+access token null
+_____________________________________________________
+
+13-Feb-2019 09:17:10
+Web.Controllers.PetsController
+Object reference not set to an instance of an object.
+_____________________________________________________
+
+13-Feb-2019 09:17:48
+Web.Controllers.PetsController
+Object reference not set to an instance of an object.
+_____________________________________________________
+
+13-Feb-2019 09:17:54
+access token null
+_____________________________________________________
+

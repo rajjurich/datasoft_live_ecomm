@@ -1,0 +1,78 @@
+28-Jan-2019 08:09:56
+API.Controllers.ResourcesController
+The INSERT statement conflicted with the FOREIGN KEY constraint "FK_dbo.Resources_dbo.Roles_RoleId". The conflict occurred in database "petzDb", table "dbo.Roles", column 'RoleId'.
+The statement has been terminated.
+_____________________________________________________
+
+28-Jan-2019 08:11:34
+API.Controllers.ResourcesController
+The INSERT statement conflicted with the FOREIGN KEY constraint "FK_dbo.Resources_dbo.Roles_RoleId". The conflict occurred in database "petzDb", table "dbo.Roles", column 'RoleId'.
+The statement has been terminated.
+_____________________________________________________
+
+28-Jan-2019 08:14:13
+API.Controllers.ResourcesController
+The INSERT statement conflicted with the FOREIGN KEY constraint "FK_dbo.Resources_dbo.Roles_RoleId". The conflict occurred in database "petzDb", table "dbo.Roles", column 'RoleId'.
+The statement has been terminated.
+_____________________________________________________
+
+28-Jan-2019 08:15:11
+API.Controllers.ResourcesController
+The INSERT statement conflicted with the FOREIGN KEY constraint "FK_dbo.Resources_dbo.Roles_RoleId". The conflict occurred in database "petzDb", table "dbo.Roles", column 'RoleId'.
+The statement has been terminated.
+_____________________________________________________
+
+28-Jan-2019 08:19:23
+API.Controllers.ResourcesController
+The INSERT statement conflicted with the FOREIGN KEY constraint "FK_dbo.Resources_dbo.Roles_RoleId". The conflict occurred in database "petzDb", table "dbo.Roles", column 'RoleId'.
+The statement has been terminated.
+_____________________________________________________
+
+28-Jan-2019 08:20:00
+API.Controllers.ResourcesController
+The INSERT statement conflicted with the FOREIGN KEY constraint "FK_dbo.Resources_dbo.Roles_RoleId". The conflict occurred in database "petzDb", table "dbo.Roles", column 'RoleId'.
+The statement has been terminated.
+_____________________________________________________
+
+28-Jan-2019 08:21:10
+API.Controllers.ResourcesController
+The INSERT statement conflicted with the FOREIGN KEY constraint "FK_dbo.Resources_dbo.Roles_RoleId". The conflict occurred in database "petzDb", table "dbo.Roles", column 'RoleId'.
+The statement has been terminated.
+_____________________________________________________
+
+28-Jan-2019 08:23:08
+API.Controllers.ResourcesController
+The INSERT statement conflicted with the FOREIGN KEY constraint "FK_dbo.Resources_dbo.Roles_RoleId". The conflict occurred in database "petzDb", table "dbo.Roles", column 'RoleId'.
+The statement has been terminated.
+_____________________________________________________
+
+28-Jan-2019 08:24:10
+API.Controllers.ResourcesController
+The INSERT statement conflicted with the FOREIGN KEY constraint "FK_dbo.Resources_dbo.Roles_RoleId". The conflict occurred in database "petzDb", table "dbo.Roles", column 'RoleId'.
+The statement has been terminated.
+_____________________________________________________
+
+28-Jan-2019 08:26:39
+API.Controllers.ResourcesController
+The INSERT statement conflicted with the FOREIGN KEY constraint "FK_dbo.Resources_dbo.Roles_RoleId". The conflict occurred in database "petzDb", table "dbo.Roles", column 'RoleId'.
+The statement has been terminated.
+_____________________________________________________
+
+28-Jan-2019 08:27:37
+API.Controllers.ResourcesController
+The INSERT statement conflicted with the FOREIGN KEY constraint "FK_dbo.Resources_dbo.Roles_RoleId". The conflict occurred in database "petzDb", table "dbo.Roles", column 'RoleId'.
+The statement has been terminated.
+_____________________________________________________
+
+28-Jan-2019 08:54:29
+API.Controllers.ResourcesController
+The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_dbo.Resources_dbo.Roles_RoleId". The conflict occurred in database "petzDb", table "dbo.Roles", column 'RoleId'.
+The statement has been terminated.
+_____________________________________________________
+
+28-Jan-2019 08:55:19
+API.Controllers.ResourcesController
+The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_dbo.Resources_dbo.Roles_RoleId". The conflict occurred in database "petzDb", table "dbo.Roles", column 'RoleId'.
+The statement has been terminated.
+_____________________________________________________
+

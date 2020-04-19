@@ -1,0 +1,50 @@
+04-Mar-2019 07:27:12
+Introducing FOREIGN KEY constraint 'FK_dbo.Products_dbo.Companies_CompanyId' on table 'Products' may cause cycles or multiple cascade paths. Specify ON DELETE NO ACTION or ON UPDATE NO ACTION, or modify other FOREIGN KEY constraints.
+Could not create constraint or index. See previous errors.
+_____________________________________________________
+
+04-Mar-2019 07:33:45
+Introducing FOREIGN KEY constraint 'FK_dbo.Products_dbo.Companies_CompanyId' on table 'Products' may cause cycles or multiple cascade paths. Specify ON DELETE NO ACTION or ON UPDATE NO ACTION, or modify other FOREIGN KEY constraints.
+Could not create constraint or index. See previous errors.
+_____________________________________________________
+
+04-Mar-2019 07:43:45
+Introducing FOREIGN KEY constraint 'FK_dbo.Products_dbo.Companies_CompanyId' on table 'Products' may cause cycles or multiple cascade paths. Specify ON DELETE NO ACTION or ON UPDATE NO ACTION, or modify other FOREIGN KEY constraints.
+Could not create constraint or index. See previous errors.
+_____________________________________________________
+
+04-Mar-2019 07:57:57
+Introducing FOREIGN KEY constraint 'FK_dbo.Products_dbo.Companies_CompanyId' on table 'Products' may cause cycles or multiple cascade paths. Specify ON DELETE NO ACTION or ON UPDATE NO ACTION, or modify other FOREIGN KEY constraints.
+Could not create constraint or index. See previous errors.
+_____________________________________________________
+
+04-Mar-2019 08:19:58
+Introducing FOREIGN KEY constraint 'FK_dbo.Products_dbo.Companies_CompanyId' on table 'Products' may cause cycles or multiple cascade paths. Specify ON DELETE NO ACTION or ON UPDATE NO ACTION, or modify other FOREIGN KEY constraints.
+Could not create constraint or index. See previous errors.
+_____________________________________________________
+
+04-Mar-2019 08:28:37
+Introducing FOREIGN KEY constraint 'FK_dbo.Products_dbo.Companies_CompanyId' on table 'Products' may cause cycles or multiple cascade paths. Specify ON DELETE NO ACTION or ON UPDATE NO ACTION, or modify other FOREIGN KEY constraints.
+Could not create constraint or index. See previous errors.
+_____________________________________________________
+
+04-Mar-2019 08:30:37
+Introducing FOREIGN KEY constraint 'FK_dbo.Products_dbo.Companies_CompanyId' on table 'Products' may cause cycles or multiple cascade paths. Specify ON DELETE NO ACTION or ON UPDATE NO ACTION, or modify other FOREIGN KEY constraints.
+Could not create constraint or index. See previous errors.
+_____________________________________________________
+
+04-Mar-2019 08:32:08
+Introducing FOREIGN KEY constraint 'FK_dbo.Products_dbo.Companies_CompanyId' on table 'Products' may cause cycles or multiple cascade paths. Specify ON DELETE NO ACTION or ON UPDATE NO ACTION, or modify other FOREIGN KEY constraints.
+Could not create constraint or index. See previous errors.
+_____________________________________________________
+
+04-Mar-2019 08:33:54
+Introducing FOREIGN KEY constraint 'FK_dbo.Products_dbo.Companies_CompanyId' on table 'Products' may cause cycles or multiple cascade paths. Specify ON DELETE NO ACTION or ON UPDATE NO ACTION, or modify other FOREIGN KEY constraints.
+Could not create constraint or index. See previous errors.
+_____________________________________________________
+
+04-Mar-2019 08:45:08
+Introducing FOREIGN KEY constraint 'FK_dbo.Products_dbo.Companies_CompanyId' on table 'Products' may cause cycles or multiple cascade paths. Specify ON DELETE NO ACTION or ON UPDATE NO ACTION, or modify other FOREIGN KEY constraints.
+Could not create constraint or index. See previous errors.
+_____________________________________________________
+

@@ -1,0 +1,327 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="~/assets/images/favicon.png">
+    <title>Datasoft - @ViewBag.Title</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="~/assets/node-modules/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/assets/node-modules/select2/dist/css/select2.min.css" rel="stylesheet" type="text/css" />
+    <!-- Typehead CSS -->
+    <link href="~/assets/node-modules/typeahead.js-master/dist/typehead-min.css" rel="stylesheet">
+    <!--alerts CSS -->
+    <link href="~/assets/node-modules/sweetalert/sweetalert.css" rel="stylesheet" type="text/css">
+    <!-- Custom CSS -->
+    <link href="~/assets/css/style.css" rel="stylesheet">
+    <link href="~/assets/css/custom.css" rel="stylesheet">
+    <!-- You can change the theme colors from here -->
+    <link href="~/assets/css/colors/blue.css" id="theme" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+</head>
+
+<body class="card-no-border">
+    <!-- ============================================================== -->
+    <!-- All Jquery -->
+    <!-- ============================================================== -->
+    <script src="~/assets/node-modules/jquery/jquery.min.js"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="~/assets/node-modules/bootstrap/js/popper.min.js"></script>
+    <script src="~/assets/node-modules/bootstrap/js/bootstrap.min.js"></script>
+    <!-- slimscrollbar scrollbar JavaScript -->
+    <script src="~/assets/node-modules/ps/perfect-scrollbar.jquery.min.js"></script>
+    <script src="~/assets/node-modules/select2/dist/js/select2.full.min.js" type="text/javascript"></script>
+    <!--Wave Effects -->
+    <script src="~/assets/js/waves.js"></script>
+    <!--Menu sidebar -->
+    <script src="~/assets/js/sidebarmenu.js"></script>
+    <!--Custom JavaScript -->
+    <script src="~/assets/js/custom.min.js"></script>
+    <!--stickey kit -->
+    <script src="~/assets/node-modules/sticky-kit-master/dist/sticky-kit.min.js"></script>
+    <script src="~/assets//node-modules/sparkline/jquery.sparkline.min.js"></script>
+    <!-- Sweet-Alert  -->
+    <script src="~/assets/node-modules/sweetalert/sweetalert.min.js"></script>
+    <script src="~/assets/node-modules/sweetalert/jquery.sweet-alert.custom.js"></script>
+    <!-- Typehead Plugin JavaScript -->
+    <script src="~/assets/node-modules/typeahead.js-master/dist/typeahead.bundle.min.js"></script>
+    <script src="~/assets/node-modules/typeahead.js-master/dist/typeahead-init.js"></script>
+    <!-- This is data table -->
+    <script src="~/assets/node-modules/datatables/jquery.dataTables.min.js"></script>
+    <!-- ============================================================== -->
+    <!-- Style switcher -->
+    <!-- ============================================================== -->
+    <script src="~/assets/node-modules/styleswitcher/jQuery.style.switcher.js"></script>
+    <!-- ============================================================== -->
+    <!-- Preloader - style you can find in spinners.css -->
+    <!-- ============================================================== -->
+    <div class="preloader">
+        <div class="loader">
+            <div class="loader__figure"></div>
+            <p class="loader__label">@ViewBag.Title Loading...</p>
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- Main wrapper - style you can find in pages.scss -->
+    <!-- ============================================================== -->
+    <div id="main-wrapper">
+        <!-- ============================================================== -->
+        <!-- Topbar header - style you can find in pages.scss -->
+        <!-- ============================================================== -->
+        <header class="topbar">
+            <nav class="navbar top-navbar navbar-expand-md navbar-light">
+                <!-- ============================================================== -->
+                <!-- Logo -->
+                <!-- ============================================================== -->
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="~/Home" style="color:white">
+                        <!-- Logo icon --><b>
+                            <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
+                            <!-- Dark Logo icon -->DI
+                            @*<img src="~/assets/images/logo-icon.png" alt="homepage" class="dark-logo" />*@
+                            <!-- Light Logo icon -->
+                            @*<img src="~/assets/images/logo-light-icon.png" alt="homepage" class="light-logo" />*@
+                        </b>
+                        <!--End Logo icon -->
+                        <!-- Logo text --><span>
+                            <!-- dark Logo text -->DataSoft Infotech
+                            @*<img src="~/assets/images/logo-text.png" alt="homepage" class="dark-logo" />*@
+                            <!-- Light Logo text -->
+                            @*<img src="~/assets/images/logo-light-text.png" class="light-logo" alt="homepage" />*@
+                        </span>
+                    </a>
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Logo -->
+                <!-- ============================================================== -->
+                <div class="navbar-collapse">
+                    <!-- ============================================================== -->
+                    <!-- toggle and nav items -->
+                    <!-- ============================================================== -->
+                    <ul class="navbar-nav mr-auto">
+                        <!-- This is  -->
+                        <li class="nav-item"> <a class="nav-link nav-toggler hidden-md-up waves-effect waves-dark" href="javascript:void(0)"><i class="ti-menu"></i></a> </li>
+                        <li class="nav-item hidden-sm-down"><span></span></li>
+                    </ul>
+                    <!-- ============================================================== -->
+                    <!-- User profile and search -->
+                    <!-- ============================================================== -->
+                    <ul class="navbar-nav my-lg-0">
+
+
+
+
+                        <!-- ============================================================== -->
+                        <!-- Profile -->
+                        <!-- ============================================================== -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle waves-effect waves-dark" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Welcome @Session["username"].ToString().ToUpperInvariant()</a>                            
+                        </li>                       
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle waves-effect waves-dark" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="~/assets/images/users/1.jpg" alt="user" class="profile-pic" /></a>
+                            <div class="dropdown-menu dropdown-menu-right animated flipInY">
+                                <ul class="dropdown-user">
+                                    <li><a href="~/Login/Logout"><i class="fa fa-power-off"></i> Logout</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                   
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- ============================================================== -->
+        <!-- End Topbar header -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <aside class="left-sidebar">
+            <!-- Sidebar scroll-->
+            <div class="scroll-sidebar">
+                <!-- Sidebar navigation-->
+                <nav class="sidebar-nav">
+                    <ul id="sidebarnav">
+                        @Html.Raw(@Session["menu"])
+                        <li class="nav-devider"></li>
+                    </ul>
+
+                </nav>
+                <!-- End Sidebar navigation -->
+            </div>
+            <!-- End Sidebar scroll-->
+        </aside>
+        <!-- ============================================================== -->
+        <!-- End Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Page wrapper  -->
+        <!-- ============================================================== -->
+        <div class="page-wrapper">
+            <!-- ============================================================== -->
+            <!-- Container fluid  -->
+            <!-- ============================================================== -->
+            <div class="container-fluid">
+                <!-- ============================================================== -->
+                <!-- Bread crumb and right sidebar toggle -->
+                <!-- ============================================================== -->
+                <div class="row page-titles">
+                    <div class="col-md-5 align-self-center">
+                        <h3 class="text-themecolor">@ViewBag.Title</h3>
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="~/Home">Home</a></li>
+                            <li class="breadcrumb-item active">@ViewBag.Title</li>
+                        </ol>
+                    </div>
+                    @*<div class="col-md-7 align-self-center text-right d-none d-md-block">
+                            <button type="button" class="btn btn-info"><i class="fa fa-plus-circle"></i> Create New</button>
+                        </div>*@
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Bread crumb and right sidebar toggle -->
+                <!-- ============================================================== -->
+                <!-- ============================================================== -->
+                <!-- Start Page Content -->
+                <!-- ============================================================== -->
+                <div class="modal fade bs-example-modal-sm" id="modalConfirmation" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" style="display: none;">
+                    <div class="modal-dialog modal-sm">
+                        <div class="modal-content">
+                            <div class="modal-body text-center">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                <button type="button" class="btn btn-warning btn-circle btn-xl"><i class="fa fa-exclamation"></i> </button>
+                                <h3 class="modal-title" id="mySmallModalLabel">Are you sure?</h3>
+                                <p>All the related record will be <br /><code>deleted permanently!</code></p>
+                                <button id="btnDeleteConfirmation" type="button" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-check"></i> Yes delete it</button>
+                                <button type="button" class="btn btn-inverse" data-dismiss="modal"><i class="fa fa-times"></i> Cancel</button>
+                            </div>
+                        </div>
+                        <!-- /.modal-content -->
+                    </div>
+                    <!-- /.modal-dialog -->
+                </div>
+                <div class="modal fade bs-example-modal-sm" id="modalPaymentConfirmation" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" style="display: none;">
+                    <div class="modal-dialog modal-sm">
+                        <div class="modal-content">
+                            <div class="modal-body text-center">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                <button type="button" class="btn btn-primary btn-circle btn-xl"><i class="fa fa-check"></i> </button>
+                                <h3 class="modal-title" id="mySmallModalLabel">Are you sure?</h3>
+                                <p>To change the current order status to <br /><code>PAID</code></p>
+                                <button id="btnPaymentConfirmation" type="button" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-check"></i> Yes proceed</button>
+                                <button type="button" class="btn btn-inverse" data-dismiss="modal"><i class="fa fa-times"></i> Cancel</button>
+                            </div>
+                        </div>
+                        <!-- /.modal-content -->
+                    </div>
+                    <!-- /.modal-dialog -->
+                </div>
+                <div class="modal fade bs-example-modal-sm" id="modalMessage" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-sm">
+                        <div class="modal-content">
+                            <div class="modal-body text-center">
+                                <button type="button" class="btn btn-success btn-circle btn-lg"><i class="fa fa-check"></i></button>
+
+                                <h3>Success.</h3>
+                                <p>@ViewBag.InnerMessage</p>
+                                <button type="button" class="btn btn-success" data-dismiss="modal"><i class="fa fa-check"></i> OK</button>
+                            </div>
+                        </div>
+                        <!-- /.modal-content -->
+                    </div>
+                    <!-- /.modal-dialog -->
+                </div>
+                <div class="modal fade bs-example-modal-sm" id="modalMessageError" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-sm">
+                        <div class="modal-content">
+                            <div class="modal-body text-center">
+                                <button type="button" class="btn btn-warning btn-circle btn-lg"><i class="fa fa-exclamation"></i></button>
+
+                                <h3>Failed.</h3>
+                                <p>@ViewBag.InnerMessage</p>
+                                <button type="button" class="btn btn-success" data-dismiss="modal"><i class="fa fa-check"></i> OK</button>
+                            </div>
+                        </div>
+                        <!-- /.modal-content -->
+                    </div>
+                    <!-- /.modal-dialog -->
+                </div>
+
+                @Html.Raw(@ViewBag.Message)
+                @RenderBody()
+                <!-- ============================================================== -->
+                <!-- End PAge Content -->
+                <!-- ============================================================== -->
+                <!-- ============================================================== -->
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Container fluid  -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- footer -->
+            <!-- ============================================================== -->
+            <footer class="footer">
+                @DateTime.Now.Year &copy; Datasoft Infotech
+            </footer>
+            <!-- ============================================================== -->
+            <!-- End footer -->
+            <!-- ============================================================== -->
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Page wrapper  -->
+        <!-- ============================================================== -->
+    </div>
+    <!-- ============================================================== -->
+    <!-- End Wrapper -->
+    <!-- ============================================================== -->
+    @RenderSection("scripts", required: false)
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $.SweetAlert.init()
+            $('.select2').select2({
+                placeholder: "Please Select",
+                allowClear: true,
+                //tags: true,
+
+            })
+            $("[data-val-required]").each(function () {
+                var label = $('label[for="' + $(this).attr("id") + '"]');
+                var asterisksHtml = '<span style="color:red">&nbsp;*</span>';
+                if (label.text().length > 0 && label.html().indexOf(asterisksHtml) === -1) {
+                    label.append(asterisksHtml);
+                }
+            });
+            $('[data-tooltip="tooltip"]').tooltip();
+            $("input:text,form").attr("autocomplete", "off");
+            $("#btn-success").trigger('click');
+            $("#btn-error").trigger('click');
+            var path_to_delete;
+
+            $(".deleteItem").click(function (e) {
+                debugger;
+                path_to_delete = $(this).data('path');
+            });
+
+
+            $('#btnDeleteConfirmation,#btnPaymentConfirmation').click(function () {
+                debugger;
+                $("form").attr('method', 'POST');
+                $("form").attr('action', path_to_delete);
+                $("form").submit();
+            });
+            var title = $(".page-title").text();
+        });
+    </script>
+    @Scripts.Render("~/bundles/jqueryval")
+</body>
+
+</html>

@@ -1,0 +1,69 @@
+14-Nov-2018 09:31:05
+Introducing FOREIGN KEY constraint 'FK_dbo.Pets_dbo.Customers_CustomerId' on table 'Pets' may cause cycles or multiple cascade paths. Specify ON DELETE NO ACTION or ON UPDATE NO ACTION, or modify other FOREIGN KEY constraints.
+Could not create constraint or index. See previous errors.
+_____________________________________________________
+
+14-Nov-2018 09:31:06
+API.Controllers.CategoriesController
+The operation was canceled.
+_____________________________________________________
+
+14-Nov-2018 09:32:24
+Introducing FOREIGN KEY constraint 'FK_dbo.Pets_dbo.Customers_CustomerId' on table 'Pets' may cause cycles or multiple cascade paths. Specify ON DELETE NO ACTION or ON UPDATE NO ACTION, or modify other FOREIGN KEY constraints.
+Could not create constraint or index. See previous errors.
+_____________________________________________________
+
+14-Nov-2018 09:33:43
+Introducing FOREIGN KEY constraint 'FK_dbo.Pets_dbo.Customers_CustomerId' on table 'Pets' may cause cycles or multiple cascade paths. Specify ON DELETE NO ACTION or ON UPDATE NO ACTION, or modify other FOREIGN KEY constraints.
+Could not create constraint or index. See previous errors.
+_____________________________________________________
+
+14-Nov-2018 09:34:36
+Introducing FOREIGN KEY constraint 'FK_dbo.Pets_dbo.Customers_CustomerId' on table 'Pets' may cause cycles or multiple cascade paths. Specify ON DELETE NO ACTION or ON UPDATE NO ACTION, or modify other FOREIGN KEY constraints.
+Could not create constraint or index. See previous errors.
+_____________________________________________________
+
+14-Nov-2018 09:35:48
+Introducing FOREIGN KEY constraint 'FK_dbo.Pets_dbo.Customers_CustomerId' on table 'Pets' may cause cycles or multiple cascade paths. Specify ON DELETE NO ACTION or ON UPDATE NO ACTION, or modify other FOREIGN KEY constraints.
+Could not create constraint or index. See previous errors.
+_____________________________________________________
+
+14-Nov-2018 09:36:14
+Introducing FOREIGN KEY constraint 'FK_dbo.Pets_dbo.Customers_CustomerId' on table 'Pets' may cause cycles or multiple cascade paths. Specify ON DELETE NO ACTION or ON UPDATE NO ACTION, or modify other FOREIGN KEY constraints.
+Could not create constraint or index. See previous errors.
+_____________________________________________________
+
+14-Nov-2018 09:43:03
+API.Controllers.MenusController
+UserId not found.
+_____________________________________________________
+
+14-Nov-2018 09:46:35
+API.Controllers.MenusController
+The Include path expression must refer to a navigation property defined on the type. Use dotted paths for reference navigation properties and the Select operator for collection navigation properties.
+Parameter name: path
+_____________________________________________________
+
+14-Nov-2018 09:47:14
+API.Controllers.MenusController
+The Include path expression must refer to a navigation property defined on the type. Use dotted paths for reference navigation properties and the Select operator for collection navigation properties.
+Parameter name: path
+_____________________________________________________
+
+14-Nov-2018 09:48:29
+API.Controllers.MenusController
+The Include path expression must refer to a navigation property defined on the type. Use dotted paths for reference navigation properties and the Select operator for collection navigation properties.
+Parameter name: path
+_____________________________________________________
+
+14-Nov-2018 09:50:24
+API.Controllers.MenusController
+The Include path expression must refer to a navigation property defined on the type. Use dotted paths for reference navigation properties and the Select operator for collection navigation properties.
+Parameter name: path
+_____________________________________________________
+
+14-Nov-2018 09:52:33
+API.Controllers.MenusController
+DbComparisonExpression requires arguments with comparable types.
+_____________________________________________________
+

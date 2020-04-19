@@ -1,0 +1,82 @@
+﻿@model IEnumerable<ViewModels.PurchaseOrderInfo>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<p class="text-muted m-t-0"><a href="@Url.Action("Create")"> <i class="fa fa-plus-circle"></i> Create New Purchase Order </a></p>
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="card">
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table id="PurchaseOrderTable" class="table">
+                        <thead>
+                            <tr>
+                                <th>Order Id</th>
+                                <th>@Html.DisplayNameFor(model => model.VendorName)</th>
+                                <th>@Html.DisplayNameFor(model => model.PrimaryMobileNumber)</th>
+                                <th>@Html.DisplayNameFor(model => model.CompanyName)</th>
+                                <th>@Html.DisplayNameFor(model => model.ResourceName)</th>
+                                <th>@Html.DisplayNameFor(model => model.IsPaid)</th>
+                                <th>@Html.DisplayNameFor(model => model.NetTotal)</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            @foreach (var item in Model)
+                            {
+
+                                <tr>
+                                    <td class="text-center">
+                                        @Html.ActionLink(string.Format("{0}{1}", "#", item.PurchaseOrderId.ToString()), "Details", new { id = item.PurchaseOrderId })
+                                    </td>
+                                    <td>
+                                        @Html.ActionLink(item.VendorName, "Details", "PurchaseOrders", new { id = item.PurchaseOrderId }, null)
+                                    </td>
+                                    <td> @Html.DisplayFor(modelItem => item.PrimaryMobileNumber)</td>
+                                    <td> @Html.DisplayFor(modelItem => item.CompanyName)</td>
+                                    <td> @Html.DisplayFor(modelItem => item.ResourceName)</td>
+                                    <td> @Html.DisplayFor(modelItem => item.IsPaid)</td>
+                                    <td> @Html.DisplayFor(modelItem => item.NetTotal)</td>
+
+                                </tr>
+
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+
+    $(document).ready(function () {
+
+
+        $('#PurchaseOrderTable').dataTable({
+            'autoWidth': false,
+            "columns": [
+                {
+                    "searchable": false,
+                    "orderable": false
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "searchable": false,
+                    "orderable": false
+                }
+            ]
+        });
+    });
+
+</script>

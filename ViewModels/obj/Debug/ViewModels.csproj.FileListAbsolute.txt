@@ -1,0 +1,10 @@
+E:\Dropbox\projects\development\PETZ\ViewModels\bin\Debug\ViewModels.dll
+E:\Dropbox\projects\development\PETZ\ViewModels\bin\Debug\ViewModels.pdb
+E:\Dropbox\projects\development\PETZ\ViewModels\obj\Debug\ViewModels.dll
+E:\Dropbox\projects\development\PETZ\ViewModels\obj\Debug\ViewModels.pdb
+E:\Dropbox\projects\development\PETZ\ViewModels\obj\Debug\ViewModels.csprojResolveAssemblyReference.cache
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\ViewModels\bin\Debug\ViewModels.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\ViewModels\bin\Debug\ViewModels.pdb
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\ViewModels\obj\Debug\ViewModels.csprojResolveAssemblyReference.cache
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\ViewModels\obj\Debug\ViewModels.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\ViewModels\obj\Debug\ViewModels.pdb

@@ -1,0 +1,24 @@
+10-Jan-2019 07:27:33
+Web.Controllers.LoginController
+'string' does not contain a definition for 'Content'
+_____________________________________________________
+
+10-Jan-2019 07:30:38
+Web.Controllers.LoginController
+'string' does not contain a definition for 'Content'
+_____________________________________________________
+
+10-Jan-2019 07:33:15
+{"Message":"No HTTP resource was found that matches the request URI 'http://localhost/api/api/token'.","MessageDetail":"No type was found that matches the controller named 'token'."}
+_____________________________________________________
+
+10-Jan-2019 07:33:42
+Web.Controllers.LoginController
+Cannot convert null to 'bool' because it is a non-nullable value type
+_____________________________________________________
+
+10-Jan-2019 07:52:33
+Web.Controllers.LoginController
+Unable to cast object of type 'Newtonsoft.Json.Linq.JObject' to type 'System.Collections.Generic.Dictionary`2[System.String,System.Object]'.
+_____________________________________________________
+

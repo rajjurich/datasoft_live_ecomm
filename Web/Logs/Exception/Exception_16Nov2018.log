@@ -1,0 +1,20 @@
+16-Nov-2018 08:37:34
+Web.Controllers.ResourcesController
+The model item passed into the dictionary is of type 'System.Collections.Generic.List`1[ViewModels.Resource]', but this dictionary requires a model item of type 'System.Collections.Generic.IEnumerable`1[ViewModels.ResourceInfo]'.
+_____________________________________________________
+
+16-Nov-2018 08:37:50
+Web.Controllers.ResourcesController
+The model item passed into the dictionary is of type 'System.Collections.Generic.List`1[ViewModels.Resource]', but this dictionary requires a model item of type 'System.Collections.Generic.IEnumerable`1[ViewModels.ResourceInfo]'.
+_____________________________________________________
+
+16-Nov-2018 08:46:23
+Web.Controllers.ResourcesController
+The model item passed into the dictionary is of type 'System.Collections.Generic.List`1[ViewModels.Resource]', but this dictionary requires a model item of type 'System.Collections.Generic.IEnumerable`1[ViewModels.ResourceInfo]'.
+_____________________________________________________
+
+16-Nov-2018 08:49:49
+Web.Controllers.ResourcesController
+The model item passed into the dictionary is of type 'System.Collections.Generic.List`1[ViewModels.Resource]', but this dictionary requires a model item of type 'System.Collections.Generic.IEnumerable`1[ViewModels.ResourceInfo]'.
+_____________________________________________________
+

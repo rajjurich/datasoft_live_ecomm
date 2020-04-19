@@ -1,0 +1,14 @@
+E:\Dropbox\projects\development\PETZ\Logger\bin\Release\Logger.dll
+E:\Dropbox\projects\development\PETZ\Logger\bin\Release\Logger.pdb
+E:\Dropbox\projects\development\PETZ\Logger\obj\Release\Logger.csprojResolveAssemblyReference.cache
+E:\Dropbox\projects\development\PETZ\Logger\obj\Release\Logger.dll
+E:\Dropbox\projects\development\PETZ\Logger\obj\Release\Logger.pdb
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Logger\bin\Release\Logger.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Logger\bin\Release\Logger.pdb
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Logger\obj\Release\Logger.csprojResolveAssemblyReference.cache
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Logger\obj\Release\Logger.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Logger\obj\Release\Logger.pdb
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\Logger\bin\Release\Logger.dll
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\Logger\bin\Release\Logger.pdb
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\Logger\obj\Release\Logger.dll
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\Logger\obj\Release\Logger.pdb

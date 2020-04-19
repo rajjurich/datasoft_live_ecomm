@@ -1,0 +1,60 @@
+﻿<ul id="sidebarnav">
+    <li class="nav-devider"></li>
+</ul>
+<script type="text/javascript">   
+        var uri = '@System.Configuration.ConfigurationManager.AppSettings["uri"].ToString()';
+        var web = '@System.Configuration.ConfigurationManager.AppSettings["web"].ToString()';
+        var token = '@Session["accessToken"].ToString()';
+        var headers = {};
+        if (token) {
+            headers.Authorization = 'Bearer ' + token;
+        }
+
+        $.ajax({
+            headers: headers,
+            method: 'GET',
+            url: uri + "api/Menus",
+            success: function (data) {
+                var row = "";
+                $.each(data, function (key, value) {
+                    if (value.Submenus.length > 0 && value.ParentMenu == null) {
+                        if (value.Title == "Commercials" || value.Title == "Inventory") {
+                            row += '<li class="three-column">';
+                        }
+                        else if (value.Title == "Orders" || value.Title == "Core Config") {
+                            row += '<li class="two-column">';
+                        }
+                        else {
+                            row += '<li>'
+                        }
+                        row += '<a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="' + value.Icon + '"></i><span class="hide-menu">' + value.Title + '</span></a>';
+                        row += '<ul aria-expanded="false" class="collapse">';
+
+                        $.each(value.Submenus, function (subkey, subvalue) {
+                            row += '<li>'
+                            if (subvalue.Submenus.length > 0) {
+                                row += '<a class="has-arrow" aria-expanded="false">' + subvalue.Title + '</a>';
+                                row += '<ul aria-expanded="false" class="collapse">';
+                                $.each(subvalue.Submenus, function (childkey,childvalue) {
+                                    row += '<li><a href="' + web + childvalue.URL + '">' + childvalue.Title + '</a></li>';
+                                });
+                                row += '</ul>';
+                            }
+                            else {
+                                row += '<a href="' + web + subvalue.URL + '">' + subvalue.Title + '</a>'
+                            }
+                            row += '</li>';
+                        });
+
+                       // row += '</ul>'
+                    }
+                });
+              //  row += '<li class="nav-devider"></li></li>';
+                $("#sidebarnav").html(row);
+
+            },
+            error: function (jqXHR) {
+                debugger;
+            }
+        });   
+</script>

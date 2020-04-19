@@ -1,0 +1,68 @@
+14-Jan-2019 08:50:43
+API.Controllers.CustomersController
+Cannot insert duplicate key row in object 'dbo.Customers' with unique index 'IX_PrimaryMobileNumber'. The duplicate key value is (9999999999).
+The statement has been terminated.
+_____________________________________________________
+
+14-Jan-2019 09:05:17
+API.Controllers.ProductsController
+Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+_____________________________________________________
+
+14-Jan-2019 09:05:45
+API.Controllers.ProductsController
+Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+_____________________________________________________
+
+14-Jan-2019 09:07:06
+API.Controllers.ProductsController
+Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+_____________________________________________________
+
+14-Jan-2019 09:07:52
+API.Controllers.ProductsController
+Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+_____________________________________________________
+
+14-Jan-2019 09:08:07
+API.Controllers.ProductsController
+Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+_____________________________________________________
+
+14-Jan-2019 09:08:48
+API.Controllers.ProductsController
+Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+_____________________________________________________
+
+14-Jan-2019 09:10:36
+API.Controllers.ProductsController
+Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+_____________________________________________________
+
+14-Jan-2019 09:11:36
+API.Controllers.ProductsController
+Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+_____________________________________________________
+
+14-Jan-2019 09:14:25
+API.Controllers.ProductsController
+Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+_____________________________________________________
+
+14-Jan-2019 09:16:04
+API.Controllers.ProductsController
+Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+_____________________________________________________
+
+14-Jan-2019 09:17:12
+API.Controllers.ProductsController
+The model state is valid.
+Parameter name: modelState
+_____________________________________________________
+
+14-Jan-2019 10:25:31
+API.Controllers.ProductTypesController
+Cannot insert duplicate key row in object 'dbo.ProductTypes' with unique index 'IX_ProductTypeName'. The duplicate key value is (mouse).
+The statement has been terminated.
+_____________________________________________________
+

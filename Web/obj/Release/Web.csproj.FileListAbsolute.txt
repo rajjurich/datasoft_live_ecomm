@@ -1,0 +1,112 @@
+E:\Dropbox\projects\development\PETZ\Web\bin\roslyn\csc.exe
+E:\Dropbox\projects\development\PETZ\Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Dropbox\projects\development\PETZ\Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Dropbox\projects\development\PETZ\Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Dropbox\projects\development\PETZ\Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Dropbox\projects\development\PETZ\Web\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Dropbox\projects\development\PETZ\Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Dropbox\projects\development\PETZ\Web\bin\roslyn\System.Collections.Immutable.dll
+E:\Dropbox\projects\development\PETZ\Web\bin\roslyn\System.Reflection.Metadata.dll
+E:\Dropbox\projects\development\PETZ\Web\bin\roslyn\vbc.exe
+E:\Dropbox\projects\development\PETZ\Web\bin\roslyn\VBCSCompiler.exe
+E:\Dropbox\projects\development\PETZ\Web\bin\roslyn\VBCSCompiler.exe.config
+E:\Dropbox\projects\development\PETZ\Web\bin\Web.dll.config
+E:\Dropbox\projects\development\PETZ\Web\bin\Web.dll
+E:\Dropbox\projects\development\PETZ\Web\bin\Web.pdb
+E:\Dropbox\projects\development\PETZ\Web\bin\Antlr3.Runtime.dll
+E:\Dropbox\projects\development\PETZ\Web\bin\Autofac.dll
+E:\Dropbox\projects\development\PETZ\Web\bin\Autofac.Integration.Mvc.dll
+E:\Dropbox\projects\development\PETZ\Web\bin\Client.dll
+E:\Dropbox\projects\development\PETZ\Web\bin\Dtos.dll
+E:\Dropbox\projects\development\PETZ\Web\bin\Logger.dll
+E:\Dropbox\projects\development\PETZ\Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Dropbox\projects\development\PETZ\Web\bin\Microsoft.Web.Infrastructure.dll
+E:\Dropbox\projects\development\PETZ\Web\bin\Newtonsoft.Json.dll
+E:\Dropbox\projects\development\PETZ\Web\bin\System.Net.Http.Formatting.dll
+E:\Dropbox\projects\development\PETZ\Web\bin\System.Web.Helpers.dll
+E:\Dropbox\projects\development\PETZ\Web\bin\System.Web.Mvc.dll
+E:\Dropbox\projects\development\PETZ\Web\bin\System.Web.Optimization.dll
+E:\Dropbox\projects\development\PETZ\Web\bin\System.Web.Razor.dll
+E:\Dropbox\projects\development\PETZ\Web\bin\System.Web.WebPages.Deployment.dll
+E:\Dropbox\projects\development\PETZ\Web\bin\System.Web.WebPages.dll
+E:\Dropbox\projects\development\PETZ\Web\bin\System.Web.WebPages.Razor.dll
+E:\Dropbox\projects\development\PETZ\Web\bin\ViewModels.dll
+E:\Dropbox\projects\development\PETZ\Web\bin\WebGrease.dll
+E:\Dropbox\projects\development\PETZ\Web\bin\Client.pdb
+E:\Dropbox\projects\development\PETZ\Web\bin\Dtos.pdb
+E:\Dropbox\projects\development\PETZ\Web\bin\Logger.pdb
+E:\Dropbox\projects\development\PETZ\Web\bin\ViewModels.pdb
+E:\Dropbox\projects\development\PETZ\Web\bin\Autofac.xml
+E:\Dropbox\projects\development\PETZ\Web\bin\Autofac.Integration.Mvc.xml
+E:\Dropbox\projects\development\PETZ\Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Dropbox\projects\development\PETZ\Web\bin\System.Net.Http.Formatting.xml
+E:\Dropbox\projects\development\PETZ\Web\bin\System.Web.Helpers.xml
+E:\Dropbox\projects\development\PETZ\Web\bin\System.Web.Mvc.xml
+E:\Dropbox\projects\development\PETZ\Web\bin\System.Web.Optimization.xml
+E:\Dropbox\projects\development\PETZ\Web\bin\System.Web.Razor.xml
+E:\Dropbox\projects\development\PETZ\Web\bin\System.Web.WebPages.xml
+E:\Dropbox\projects\development\PETZ\Web\bin\System.Web.WebPages.Deployment.xml
+E:\Dropbox\projects\development\PETZ\Web\bin\System.Web.WebPages.Razor.xml
+E:\Dropbox\projects\development\PETZ\Web\bin\Antlr3.Runtime.pdb
+E:\Dropbox\projects\development\PETZ\Web\bin\Newtonsoft.Json.xml
+E:\Dropbox\projects\development\PETZ\Web\obj\Release\Web.csprojResolveAssemblyReference.cache
+E:\Dropbox\projects\development\PETZ\Web\obj\Release\Web.dll
+E:\Dropbox\projects\development\PETZ\Web\obj\Release\Web.pdb
+E:\Dropbox\projects\development\PETZ\Web\bin\System.ValueTuple.dll
+E:\Dropbox\projects\development\PETZ\Web\bin\System.ValueTuple.xml
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Web\bin\roslyn\csc.exe
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Web\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Web\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Web\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Web\bin\roslyn\vbc.exe
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Web\bin\roslyn\VBCSCompiler.exe
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Web\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Web\bin\Web.dll.config
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Web\bin\Web.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Web\bin\Web.pdb
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Web\bin\Antlr3.Runtime.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Web\bin\Autofac.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Web\bin\Autofac.Integration.Mvc.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Web\bin\Client.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Web\bin\Dtos.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Web\bin\Logger.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Web\bin\Newtonsoft.Json.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Web\bin\System.Net.Http.Formatting.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Web\bin\System.ValueTuple.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Web\bin\System.Web.Helpers.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Web\bin\System.Web.Mvc.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Web\bin\System.Web.Optimization.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Web\bin\System.Web.Razor.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Web\bin\System.Web.WebPages.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Web\bin\ViewModels.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Web\bin\WebGrease.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Web\bin\Client.pdb
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Web\bin\Dtos.pdb
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Web\bin\Logger.pdb
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Web\bin\ViewModels.pdb
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Web\bin\Autofac.xml
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Web\bin\Autofac.Integration.Mvc.xml
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Web\bin\System.Net.Http.Formatting.xml
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Web\bin\System.ValueTuple.xml
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Web\bin\System.Web.Helpers.xml
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Web\bin\System.Web.Mvc.xml
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Web\bin\System.Web.Optimization.xml
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Web\bin\System.Web.Razor.xml
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Web\bin\System.Web.WebPages.xml
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Web\bin\Antlr3.Runtime.pdb
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Web\bin\Newtonsoft.Json.xml
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Web\obj\Release\Web.csprojResolveAssemblyReference.cache
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Web\obj\Release\Web.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Web\obj\Release\Web.pdb

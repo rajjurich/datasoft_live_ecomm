@@ -1,0 +1,293 @@
+E:\Dropbox\projects\development\PETZ\API\bin\roslyn\csc.exe
+E:\Dropbox\projects\development\PETZ\API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Dropbox\projects\development\PETZ\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Dropbox\projects\development\PETZ\API\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Dropbox\projects\development\PETZ\API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Dropbox\projects\development\PETZ\API\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Dropbox\projects\development\PETZ\API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Dropbox\projects\development\PETZ\API\bin\roslyn\System.Collections.Immutable.dll
+E:\Dropbox\projects\development\PETZ\API\bin\roslyn\System.Reflection.Metadata.dll
+E:\Dropbox\projects\development\PETZ\API\bin\roslyn\vbc.exe
+E:\Dropbox\projects\development\PETZ\API\bin\roslyn\VBCSCompiler.exe
+E:\Dropbox\projects\development\PETZ\API\bin\roslyn\VBCSCompiler.exe.config
+E:\Dropbox\projects\development\PETZ\API\bin\API.dll.config
+E:\Dropbox\projects\development\PETZ\API\bin\API.dll
+E:\Dropbox\projects\development\PETZ\API\bin\API.pdb
+E:\Dropbox\projects\development\PETZ\API\bin\Antlr3.Runtime.dll
+E:\Dropbox\projects\development\PETZ\API\bin\Autofac.dll
+E:\Dropbox\projects\development\PETZ\API\bin\Autofac.Integration.WebApi.dll
+E:\Dropbox\projects\development\PETZ\API\bin\Domain.dll
+E:\Dropbox\projects\development\PETZ\API\bin\Dtos.dll
+E:\Dropbox\projects\development\PETZ\API\bin\EntityFramework.dll
+E:\Dropbox\projects\development\PETZ\API\bin\EntityFramework.SqlServer.dll
+E:\Dropbox\projects\development\PETZ\API\bin\License.dll
+E:\Dropbox\projects\development\PETZ\API\bin\Logger.dll
+E:\Dropbox\projects\development\PETZ\API\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Dropbox\projects\development\PETZ\API\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Dropbox\projects\development\PETZ\API\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Dropbox\projects\development\PETZ\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Dropbox\projects\development\PETZ\API\bin\Microsoft.Owin.Cors.dll
+E:\Dropbox\projects\development\PETZ\API\bin\Microsoft.Owin.dll
+E:\Dropbox\projects\development\PETZ\API\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Dropbox\projects\development\PETZ\API\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Dropbox\projects\development\PETZ\API\bin\Microsoft.Owin.Security.dll
+E:\Dropbox\projects\development\PETZ\API\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Dropbox\projects\development\PETZ\API\bin\Microsoft.Owin.Security.Google.dll
+E:\Dropbox\projects\development\PETZ\API\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Dropbox\projects\development\PETZ\API\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Dropbox\projects\development\PETZ\API\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Dropbox\projects\development\PETZ\API\bin\Microsoft.Web.Infrastructure.dll
+E:\Dropbox\projects\development\PETZ\API\bin\Newtonsoft.Json.dll
+E:\Dropbox\projects\development\PETZ\API\bin\Owin.dll
+E:\Dropbox\projects\development\PETZ\API\bin\System.Net.Http.Formatting.dll
+E:\Dropbox\projects\development\PETZ\API\bin\System.Web.Cors.dll
+E:\Dropbox\projects\development\PETZ\API\bin\System.Web.Helpers.dll
+E:\Dropbox\projects\development\PETZ\API\bin\System.Web.Http.Cors.dll
+E:\Dropbox\projects\development\PETZ\API\bin\System.Web.Http.dll
+E:\Dropbox\projects\development\PETZ\API\bin\System.Web.Http.Owin.dll
+E:\Dropbox\projects\development\PETZ\API\bin\System.Web.Http.WebHost.dll
+E:\Dropbox\projects\development\PETZ\API\bin\System.Web.Mvc.dll
+E:\Dropbox\projects\development\PETZ\API\bin\System.Web.Optimization.dll
+E:\Dropbox\projects\development\PETZ\API\bin\System.Web.Razor.dll
+E:\Dropbox\projects\development\PETZ\API\bin\System.Web.WebPages.Deployment.dll
+E:\Dropbox\projects\development\PETZ\API\bin\System.Web.WebPages.dll
+E:\Dropbox\projects\development\PETZ\API\bin\System.Web.WebPages.Razor.dll
+E:\Dropbox\projects\development\PETZ\API\bin\WebGrease.dll
+E:\Dropbox\projects\development\PETZ\API\bin\License.pdb
+E:\Dropbox\projects\development\PETZ\API\bin\Domain.pdb
+E:\Dropbox\projects\development\PETZ\API\bin\Dtos.pdb
+E:\Dropbox\projects\development\PETZ\API\bin\Logger.pdb
+E:\Dropbox\projects\development\PETZ\API\bin\Autofac.xml
+E:\Dropbox\projects\development\PETZ\API\bin\Autofac.Integration.WebApi.pdb
+E:\Dropbox\projects\development\PETZ\API\bin\Autofac.Integration.WebApi.xml
+E:\Dropbox\projects\development\PETZ\API\bin\EntityFramework.xml
+E:\Dropbox\projects\development\PETZ\API\bin\EntityFramework.SqlServer.xml
+E:\Dropbox\projects\development\PETZ\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Dropbox\projects\development\PETZ\API\bin\Microsoft.Owin.xml
+E:\Dropbox\projects\development\PETZ\API\bin\Microsoft.Owin.Cors.xml
+E:\Dropbox\projects\development\PETZ\API\bin\System.Net.Http.Formatting.xml
+E:\Dropbox\projects\development\PETZ\API\bin\System.Web.Http.xml
+E:\Dropbox\projects\development\PETZ\API\bin\System.Web.Http.Cors.xml
+E:\Dropbox\projects\development\PETZ\API\bin\Newtonsoft.Json.xml
+E:\Dropbox\projects\development\PETZ\API\bin\System.Web.Helpers.xml
+E:\Dropbox\projects\development\PETZ\API\bin\System.Web.Http.WebHost.xml
+E:\Dropbox\projects\development\PETZ\API\bin\System.Web.Mvc.xml
+E:\Dropbox\projects\development\PETZ\API\bin\System.Web.Optimization.xml
+E:\Dropbox\projects\development\PETZ\API\bin\System.Web.Razor.xml
+E:\Dropbox\projects\development\PETZ\API\bin\System.Web.WebPages.xml
+E:\Dropbox\projects\development\PETZ\API\bin\System.Web.WebPages.Deployment.xml
+E:\Dropbox\projects\development\PETZ\API\bin\System.Web.WebPages.Razor.xml
+E:\Dropbox\projects\development\PETZ\API\bin\Antlr3.Runtime.pdb
+E:\Dropbox\projects\development\PETZ\API\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Dropbox\projects\development\PETZ\API\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Dropbox\projects\development\PETZ\API\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Dropbox\projects\development\PETZ\API\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Dropbox\projects\development\PETZ\API\bin\Microsoft.Owin.Security.xml
+E:\Dropbox\projects\development\PETZ\API\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Dropbox\projects\development\PETZ\API\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Dropbox\projects\development\PETZ\API\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Dropbox\projects\development\PETZ\API\bin\Microsoft.Owin.Security.Google.xml
+E:\Dropbox\projects\development\PETZ\API\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Dropbox\projects\development\PETZ\API\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Dropbox\projects\development\PETZ\API\bin\System.Web.Http.Owin.xml
+E:\Dropbox\projects\development\PETZ\API\obj\Release\API.csprojResolveAssemblyReference.cache
+E:\Dropbox\projects\development\PETZ\API\obj\Release\API.dll
+E:\Dropbox\projects\development\PETZ\API\obj\Release\API.pdb
+E:\Dropbox\projects\development\PETZ\API\bin\System.ValueTuple.dll
+E:\Dropbox\projects\development\PETZ\API\bin\System.ValueTuple.xml
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\roslyn\csc.exe
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\roslyn\vbc.exe
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\roslyn\VBCSCompiler.exe
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\API.dll.config
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\API.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\API.pdb
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\Antlr3.Runtime.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\Autofac.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\Autofac.Integration.WebApi.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\Domain.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\Dtos.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\EntityFramework.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\EntityFramework.SqlServer.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\License.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\Logger.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\Microsoft.Owin.Cors.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\Microsoft.Owin.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\Microsoft.Owin.Security.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\Newtonsoft.Json.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\Owin.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\System.Net.Http.Formatting.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\System.ValueTuple.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\System.Web.Cors.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\System.Web.Helpers.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\System.Web.Http.Cors.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\System.Web.Http.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\System.Web.Http.Owin.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\System.Web.Http.WebHost.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\System.Web.Mvc.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\System.Web.Optimization.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\System.Web.Razor.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\System.Web.WebPages.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\System.Web.WebPages.Razor.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\WebGrease.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\License.pdb
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\Domain.pdb
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\Dtos.pdb
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\Logger.pdb
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\Autofac.xml
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\Autofac.Integration.WebApi.pdb
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\Autofac.Integration.WebApi.xml
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\EntityFramework.xml
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\EntityFramework.SqlServer.xml
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\Microsoft.Owin.xml
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\Microsoft.Owin.Cors.xml
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\System.Net.Http.Formatting.xml
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\System.ValueTuple.xml
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\System.Web.Http.xml
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\System.Web.Http.Cors.xml
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\Newtonsoft.Json.xml
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\System.Web.Helpers.xml
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\System.Web.Http.WebHost.xml
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\System.Web.Mvc.xml
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\System.Web.Optimization.xml
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\System.Web.Razor.xml
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\System.Web.WebPages.xml
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\System.Web.WebPages.Razor.xml
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\Antlr3.Runtime.pdb
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\Microsoft.Owin.Security.xml
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\bin\System.Web.Http.Owin.xml
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\obj\Release\API.csprojResolveAssemblyReference.cache
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\obj\Release\API.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\API\obj\Release\API.pdb
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\roslyn\vbc.exe
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\roslyn\VBCSCompiler.exe
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\roslyn\csc.exe
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\API.dll.config
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\API.dll
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\API.pdb
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\Antlr3.Runtime.dll
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\Autofac.dll
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\Autofac.Integration.WebApi.dll
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\Domain.dll
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\Dtos.dll
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\EntityFramework.dll
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\EntityFramework.SqlServer.dll
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\License.dll
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\Logger.dll
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\Microsoft.Owin.Cors.dll
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\Microsoft.Owin.dll
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\Microsoft.Owin.Security.dll
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\Newtonsoft.Json.dll
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\Owin.dll
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\System.Net.Http.Formatting.dll
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\System.ValueTuple.dll
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\System.Web.Cors.dll
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\System.Web.Helpers.dll
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\System.Web.Http.Cors.dll
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\System.Web.Http.dll
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\System.Web.Http.Owin.dll
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\System.Web.Http.WebHost.dll
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\System.Web.Mvc.dll
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\System.Web.Optimization.dll
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\System.Web.Razor.dll
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\System.Web.WebPages.dll
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\System.Web.WebPages.Razor.dll
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\WebGrease.dll
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\License.pdb
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\Domain.pdb
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\Domain.dll.config
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\Dtos.pdb
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\Logger.pdb
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\Autofac.xml
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\Autofac.Integration.WebApi.pdb
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\Autofac.Integration.WebApi.xml
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\EntityFramework.xml
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\EntityFramework.SqlServer.xml
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\Microsoft.Owin.xml
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\Microsoft.Owin.Cors.xml
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\System.Net.Http.Formatting.xml
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\System.ValueTuple.xml
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\System.Web.Http.xml
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\System.Web.Http.Cors.xml
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\Newtonsoft.Json.xml
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\System.Web.Helpers.xml
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\System.Web.Http.WebHost.xml
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\System.Web.Mvc.xml
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\System.Web.Optimization.xml
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\System.Web.Razor.xml
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\System.Web.WebPages.xml
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\System.Web.WebPages.Razor.xml
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\Antlr3.Runtime.pdb
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\Microsoft.Owin.Security.xml
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\bin\System.Web.Http.Owin.xml
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\obj\Release\API.csprojAssemblyReference.cache
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\obj\Release\API.csproj.CopyComplete
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\obj\Release\API.dll
+C:\Users\Rajju\Google Drive\PROJECTS\Development\datasoft live\ECommerce\API\obj\Release\API.pdb

@@ -1,0 +1,229 @@
+﻿@model ViewModels.SalesOrder
+
+@{
+    ViewBag.Title = "Create Sales Orders";
+}
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div class="row">
+        <div class="col-lg-12 col-xlg-12 col-md-12">
+            <div class="card">
+                <div class="card-body">
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                    @Html.HiddenFor(model => model.CustomerId)
+                    <div class="form-material controls">
+                        <div class="row">
+                            <div class="col-md-3 ">
+                                <div id="CustomerMobileNumber" class="form-group">
+                                    @*<input type="text" class="typeahead" />*@
+                                    @Html.LabelFor(model => model.PrimaryMobileNumber, htmlAttributes: new { @class = "control-label" })
+                                    @Html.EditorFor(model => model.PrimaryMobileNumber, new { htmlAttributes = new { @class = "form-control", placeholder = "Customer Mobile Number", maxlength = 10 } })
+                                    @Html.ValidationMessageFor(model => model.PrimaryMobileNumber, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                            <div class="col-md-3 ">
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.CustomerName, htmlAttributes: new { @class = "control-label" })
+                                    @Html.EditorFor(model => model.CustomerName, new { htmlAttributes = new { @class = "form-control", placeholder = "Customer Name", maxlength = 100 } })
+                                    @Html.ValidationMessageFor(model => model.CustomerName, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                            <div class="col-md-3 ">
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.CompanyId, htmlAttributes: new { @class = "control-label" })
+                                    @Html.DropDownListFor(model => model.CompanyId, (IEnumerable<SelectListItem>)ViewData["Companies"], "Select", new { @class = "form-control select2", @style = "width:100%" })
+                                    @Html.ValidationMessageFor(model => model.CompanyId, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                            <div class="col-md-3 ">
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.ResourceId, htmlAttributes: new { @class = "control-label" })
+                                    @Html.DropDownListFor(model => model.ResourceId, (IEnumerable<SelectListItem>)ViewData["Resources"], "Select", new { @class = "form-control select2", @style = "width:100%" })
+                                    @Html.ValidationMessageFor(model => model.ResourceId, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                        </div>
+                        <div class="input-group" id="ProductName">
+                            <div class="form-group col-md-12">
+                                @Html.LabelFor(model => model.ProductId, htmlAttributes: new { @class = "control-label" })
+                                @Html.DropDownListFor(model => model.ProductId, (IEnumerable<SelectListItem>)ViewData["Products"], "Select", new { @class = "form-control select2", @style = "width:100%" })
+                                @Html.ValidationMessageFor(model => model.ProductId, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </div>
+                    <p><h4 class="text-muted">Added Items : <label id="itemCount">0</label></h4></p>
+                    <div id="itemDiv">
+
+                    </div>
+                    <hr />
+                    <div class="form-actions">
+                        <div class="custom-control custom-checkbox mr-sm-2 mb-3 pull-left">
+                            @Html.EditorFor(model => model.IsPaid, new { htmlAttributes = new { @class = "custom-control-input" } })
+                            @Html.LabelFor(model => model.IsPaid, htmlAttributes: new { @class = "custom-control-label", @for = "IsPaid" })
+                            @Html.ValidationMessageFor(model => model.IsPaid, "", new { @class = "text-danger" })
+                        </div>
+                        <button type="submit" id="btnSubmit" class="btn btn-success pull-right"> <i class="fa fa-check"></i> Save</button>
+                    </div>
+                </div>
+                @*<div class="col-xs-12 table-responsive">
+                        <table class="table">
+                            <thead id="tblHeadForSales">
+                                <tr>
+                                    <th width="60%">Product</th>
+                                    <th width="19%">Price</th>
+                                    <th width="10%">CGST(%)</th>
+                                    <th width="10%">SGST(%)</th>
+                                    <th width="1%"></th>
+                                </tr>
+                            </thead>
+                            <tbody id="ItemListBody" class="form-material"></tbody>
+                        </table>
+                    </div>*@
+
+            </div>
+        </div>
+        <!-- Column -->
+    </div>
+}
+<div>
+    <a href="@Url.Action("Index")"> <i class="fa fa-mail-reply"></i> Back to List </a>
+</div>
+
+
+
+<script type="text/javascript">
+    var objItem = [];
+    function remove_products_list(rid, srno) {
+
+        $('.removeclass' + rid).remove();
+        objItem.splice(objItem.indexOf(srno), 1);
+        $("#itemCount").text(objItem.length);
+    }
+
+    $(document).ready(function () {
+        var uri = '@System.Configuration.ConfigurationManager.AppSettings["uri"].ToString()';
+        var token = '@Session["accessToken"].ToString()';
+        var headers = {};
+        if (token) {
+            headers.Authorization = 'Bearer ' + token;
+        }
+
+
+        $("#PrimaryMobileNumber").blur(function () {
+            if ($("#PrimaryMobileNumber").val().length = 10) {
+                $.ajax({
+                    headers: headers,
+                    method: 'GET',
+                    url: uri + "api/Customers/GetCustomerInfo/" + $("#PrimaryMobileNumber").val(),
+                    success: function (data) {
+                        $("#CustomerName").val(data.CustomerName);
+                        $("#CustomerId").val(data.CustomerId);
+                    },
+                    error: function (jqXHR) {
+                        $("#CustomerName").val("");
+                        $("#CustomerId").val("");
+                    }
+                });
+            }
+        });
+
+
+        $("#ProductId").change(function () {
+            AddProduct();
+        });
+
+
+
+        var product = -1;
+
+
+        function AddProduct() {
+
+
+            var obj = $("#ProductId").val();
+            var objText = $("#ProductId").select2('data')[0]['text'].split(" - ");
+            if (objText[0] != "Select") {
+
+
+                if (jQuery.inArray(obj, objItem) < 0) {
+                    product++;
+                    @{
+                            var i = -1;
+                        }
+                    objItem.push(obj);
+
+                    var row = '';
+                    row = row + '<div class="row removeclass' + product + '">';
+                    row = row + '<div class="col-md-3"><div class="form-group" style="margin-bottom: 0px;"><input id="productsSalesOrders_' + product + '__ProductId" name="productsSalesOrders[' + product + '].ProductId"  type="hidden" value="' + obj + '" />' + objText[0] + '</div></div>';
+
+                    var price = '@Html.EditorFor(model => Model.productsSalesOrders[i].OrderPrice, new { htmlAttributes = new { @class = "form-control form-control-sm", placeholder = "Price", maxlength=10 } })';
+                    var priceVal = '@Html.ValidationMessageFor(model => Model.productsSalesOrders[i].OrderPrice, "", new { @class = "text-danger" })';
+                    price = price.replace("[-1]", "[" + product + "]");
+                    priceVal = priceVal.replace("[-1]", "[" + product + "]");
+                    price = price.replace("-1", product);
+                    priceVal = priceVal.replace("-1", product);
+                    row = row + '<div class="col-md-2"><div class="form-group">' + price + '<span><small>' + priceVal + '</small></span></div></div>';
+
+                    var quantity = '@Html.EditorFor(model => Model.productsSalesOrders[i].Quantity, new { htmlAttributes = new { @class = "form-control form-control-sm", placeholder = "Quantity", maxlength = 2 } })';
+                    var quantityVal = '@Html.ValidationMessageFor(model => Model.productsSalesOrders[i].Quantity, "", new { @class = "text-danger" })';
+                    quantity = quantity.replace("[-1]", "[" + product + "]");
+                    quantityVal = quantityVal.replace("[-1]", "[" + product + "]");
+                    quantity = quantity.replace("-1", product);
+                    quantityVal = quantityVal.replace("-1", product);
+                    row = row + '<div class="col-md-2"><div class="form-group">' + quantity + '<span><small>' + quantityVal + '</small></span></div></div>';
+
+
+                    var cgst = '@Html.EditorFor(model => Model.productsSalesOrders[i].CGST, new { htmlAttributes = new { @class = "form-control form-control-sm", placeholder = "CGST %", maxlength = 5, Value = 9 } })';
+                    var cgstVal = '@Html.ValidationMessageFor(model => Model.productsSalesOrders[i].CGST, "", new { @class = "text-danger" })';
+                    cgst = cgst.replace("[-1]", "[" + product + "]");
+                    cgstVal = cgstVal.replace("[-1]", "[" + product + "]");
+                    cgst = cgst.replace("-1", product);
+                    cgstVal = cgstVal.replace("-1", product);
+                    row = row + '<div class="col-md-2"><div class="form-group">' + cgst + '<span><small>' + cgstVal + '</small></span></div></div>';
+
+                    var sgst = '@Html.EditorFor(model => Model.productsSalesOrders[i].SGST, new { htmlAttributes = new { @class = "form-control form-control-sm", placeholder = "SGST %", maxlength = 5, Value = 9 } })';
+                    var sgstVal = '@Html.ValidationMessageFor(model => Model.productsSalesOrders[i].SGST, "", new { @class = "text-danger" })';
+                    sgst = sgst.replace("[-1]", "[" + product + "]");
+                    sgstVal = sgstVal.replace("[-1]", "[" + product + "]");
+                    sgst = sgst.replace("-1", product);
+                    sgstVal = sgstVal.replace("-1", product);
+                    row = row + '<div class="col-md-2"><div class="form-group">' + sgst + '<span><small>' + sgstVal + '</small></span></div></div>';
+
+                    row = row + '<div class="col-md-1"><button class="btn btn-sm btn-danger" type="button" onclick="remove_products_list(' + product + ',' + obj + ');"> <i class="fa fa-minus"></i> </button></div>';
+                    row = row + '</div>';
+                    $("#itemDiv").append(row);
+
+                    console.log("");
+
+                    var form = $("form");
+                    form.data('validator', null);
+                    $.validator.unobtrusive.parse(form);
+                    $("#itemCount").text(objItem.length);
+                }
+                else {
+                    swal("Already added");
+                }
+
+                $("#ProductId").clear();
+            }
+        }
+
+
+        $("form").submit(function () {
+            var rowCount = objItem.length;
+
+            if (rowCount < 1) {
+                swal("No Product Added, Please add atleast one product");
+                $("#ProductId").focus();
+                return false;
+            }
+            else {
+                return true;
+            }
+
+
+        });
+    });
+</script>

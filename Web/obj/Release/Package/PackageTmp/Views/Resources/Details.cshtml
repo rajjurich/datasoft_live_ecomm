@@ -1,0 +1,70 @@
+﻿@model ViewModels.ResourceInfo
+
+@{
+    ViewBag.Title = "View Resource";
+}
+
+<p class="text-muted m-t-0"><a href="@Url.Action("Create")"> <i class="fa fa-plus-circle"></i> Create New Resource </a></p>
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="card">
+            <div class="card-body">
+                <form class="form-horizontal" role="form">
+                    <div class="form-body">
+                        <h3 class="box-title">Details</h3>
+                        <hr class="m-t-0 m-b-40">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group row">
+                                    <label class="control-label col-md-3">@Html.DisplayNameFor(model => model.ResourceName):</label>
+                                    <div class="col-md-9">
+                                        <p class="form-control-static"> @Html.DisplayFor(model => model.ResourceName) </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group row">
+                                    <label class="control-label col-md-3">@Html.DisplayNameFor(model => model.CompanyName):</label>
+                                    <div class="col-md-9">
+                                        <p class="form-control-static"> @Html.DisplayFor(model => model.CompanyName) </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group row">
+                                    <label class="control-label col-md-3">@Html.DisplayNameFor(model => model.Role):</label>
+                                    <div class="col-md-9">
+                                        <p class="form-control-static"> @Html.DisplayFor(model => model.Role) </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr />
+                    <div class="form-actions">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="row">
+
+                                    <div class="col-md-offset-3 col-md-9">
+                                        @using (Html.BeginForm())
+                                        {
+                                            @Html.AntiForgeryToken()
+                                            <a href="@Url.Action("Edit", new { id = Model.ResourceId })" class="text-primary m-r-10"> <i class="fa fa-pencil"></i> Edit</a>
+                                            <a id="deleteItem" class="deleteItem text-danger" href="javascript:void(0)" data-target="#modalConfirmation" data-toggle="modal" data-path="@Url.Action("Delete", "Resources", new { id = Model.ResourceId })"><span class="fa fa-trash"></span> Delete</a>
+                                        }
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div>
+    <a href="@Url.Action("Index")"> <i class="fa fa-mail-reply"></i> Back to List </a>
+</div>  

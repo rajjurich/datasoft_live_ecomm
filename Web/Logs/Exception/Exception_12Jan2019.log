@@ -1,0 +1,15 @@
+12-Jan-2019 10:00:22
+Web.Controllers.ResourcesController
+The model item passed into the dictionary is of type 'System.Collections.Generic.List`1[ViewModels.Resource]', but this dictionary requires a model item of type 'System.Collections.Generic.IEnumerable`1[ViewModels.ResourceInfo]'.
+_____________________________________________________
+
+12-Jan-2019 10:00:30
+Web.Controllers.ProductsController
+Object reference not set to an instance of an object.
+_____________________________________________________
+
+12-Jan-2019 10:05:59
+Web.Controllers.ProductsController
+Object reference not set to an instance of an object.
+_____________________________________________________
+

@@ -1,0 +1,14 @@
+15-Nov-2018 08:07:16
+API.Controllers.MenusController
+A specified Include path is not valid. The EntityType 'Domain.Core.Menu' does not declare a navigation property with the name 'SubMenu'.
+_____________________________________________________
+
+15-Nov-2018 08:07:44
+The controller for path '/API/__browserLink/requestData/e791fb50f8084c30baf60a4fd874d32e' was not found or does not implement IController.
+_____________________________________________________
+
+15-Nov-2018 08:17:43
+API.Controllers.MenusController
+The methods 'Single' and 'SingleOrDefault' can only be used as a final query operation. Consider using the method 'FirstOrDefault' in this instance instead.
+_____________________________________________________
+

@@ -1,0 +1,75 @@
+22-Feb-2019 09:00:03
+API.Controllers.CustomersController
+A second operation started on this context before a previous asynchronous operation completed. Use 'await' to ensure that any asynchronous operations have completed before calling another method on this context. Any instance members are not guaranteed to be thread safe.
+_____________________________________________________
+
+22-Feb-2019 09:00:03
+API.Controllers.PetsController
+A second operation started on this context before a previous asynchronous operation completed. Use 'await' to ensure that any asynchronous operations have completed before calling another method on this context. Any instance members are not guaranteed to be thread safe.
+_____________________________________________________
+
+22-Feb-2019 09:00:03
+API.Controllers.PetsController
+A second operation started on this context before a previous asynchronous operation completed. Use 'await' to ensure that any asynchronous operations have completed before calling another method on this context. Any instance members are not guaranteed to be thread safe.
+_____________________________________________________
+
+22-Feb-2019 09:00:03
+API.Controllers.CustomersController
+A second operation started on this context before a previous asynchronous operation completed. Use 'await' to ensure that any asynchronous operations have completed before calling another method on this context. Any instance members are not guaranteed to be thread safe.
+_____________________________________________________
+
+22-Feb-2019 09:00:03
+API.Controllers.PetsController
+A second operation started on this context before a previous asynchronous operation completed. Use 'await' to ensure that any asynchronous operations have completed before calling another method on this context. Any instance members are not guaranteed to be thread safe.
+_____________________________________________________
+
+22-Feb-2019 09:00:03
+API.Controllers.CustomersController
+The ObjectContext instance has been disposed and can no longer be used for operations that require a connection.
+_____________________________________________________
+
+22-Feb-2019 09:00:26
+API.Controllers.CustomersController
+The operation was canceled.
+_____________________________________________________
+
+22-Feb-2019 09:00:26
+API.Controllers.PetsController
+The operation was canceled.
+_____________________________________________________
+
+22-Feb-2019 09:00:26
+API.Controllers.CustomersController
+The operation was canceled.
+_____________________________________________________
+
+22-Feb-2019 09:19:06
+API.Controllers.CustomersController
+The operation was canceled.
+_____________________________________________________
+
+22-Feb-2019 09:19:06
+API.Controllers.CustomersController
+The operation was canceled.
+_____________________________________________________
+
+22-Feb-2019 10:09:50
+API.Controllers.GroomingController
+
+Unmapped members were found. Review the types and members below.
+Add a custom mapping expression, ignore, add a custom resolver, or modify the source/destination type
+For no matching constructor, add a no-arg ctor, add optional arguments, or map all of the constructor parameters
+=============================================
+AutoMapper created this type map for you, but your types cannot be mapped using the current configuration.
+GroomingDto -> Grooming (Destination member list)
+Dtos.GroomingDto -> Domain.Entities.Grooming (Destination member list)
+
+Unmapped properties:
+GroomingDate
+CreatedDate
+ModifiedDate
+Customer
+Pet
+
+_____________________________________________________
+

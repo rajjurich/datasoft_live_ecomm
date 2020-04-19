@@ -1,0 +1,111 @@
+﻿@model ViewModels.Product
+
+@{
+    ViewBag.Title = "Create Product";
+}
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="card">
+                <div class="card-body">
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                    <div class="form-body">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.CompanyId, htmlAttributes: new { @class = "control-label" })
+                                    @Html.DropDownListFor(model => model.CompanyId, (IEnumerable<SelectListItem>)ViewData["Companies"], "Select", new { @class = "form-control select2" })
+                                    @Html.ValidationMessageFor(model => model.CompanyId, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.ProductTypeId, htmlAttributes: new { @class = "control-label" })
+                                    @Html.DropDownListFor(model => model.ProductTypeId, (IEnumerable<SelectListItem>)ViewData["ProductTypes"], "Select", new { @class = "form-control select2" })
+                                    @Html.ValidationMessageFor(model => model.ProductTypeId, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.ManufacturerId, htmlAttributes: new { @class = "control-label" })
+                                    @Html.DropDownListFor(model => model.ManufacturerId, (IEnumerable<SelectListItem>)ViewData["Manufacturers"], "Select", new { @class = "form-control select2" })
+                                    @Html.ValidationMessageFor(model => model.ManufacturerId, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.CategoryId, htmlAttributes: new { @class = "control-label" })
+                                    @Html.DropDownListFor(model => model.CategoryId, (IEnumerable<SelectListItem>)ViewData["Categories"], "Select", new { @class = "form-control select2" })
+                                    @Html.ValidationMessageFor(model => model.CategoryId, "", new { @class = "text-danger" })
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.ProductName, htmlAttributes: new { @class = "control-label" })
+                                    @Html.EditorFor(model => model.ProductName, new { htmlAttributes = new { @class = "form-control", placeholder = "Add Product Name", maxlength = 100 } })
+                                    @Html.ValidationMessageFor(model => model.ProductName, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                            <div class="col-md-3 collapse">
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.WeightInKg, htmlAttributes: new { @class = "control-label" })
+                                    @Html.EditorFor(model => model.WeightInKg, new { htmlAttributes = new { @class = "form-control", placeholder = "Add Weight In Kg", maxlength = 100 } })
+                                    @Html.ValidationMessageFor(model => model.WeightInKg, "", new { @class = "text-danger" })
+                                </div>
+                            </div> 
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.ProductDescription, htmlAttributes: new { @class = "control-label" })
+                                    @Html.TextAreaFor(model => model.ProductDescription, new { @class = "form-control", placeholder = "Add Product Description", maxlength = 500 })
+                                    @Html.ValidationMessageFor(model => model.ProductDescription, "", new { @class = "text-danger" })
+                                </div>
+                            </div>                           
+                        </div>                        
+                    </div>
+                    <div class="form-actions">
+                        <button type="submit" class="btn btn-success"> <i class="fa fa-check"></i> Save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+<div>
+    <a href="@Url.Action("Index")"> <i class="fa fa-mail-reply"></i> Back to List </a>
+</div>
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        $("#autoGenerateSerialNumber,#ProductTypeId").change(function () {
+            autoGenerateSerialNumber();
+        });
+
+    });
+
+    function autoGenerateSerialNumber() {
+        if ($("#autoGenerateSerialNumber").is(":checked")) {
+            $("#ProductTypeId").valid();
+            var x = $("#ProductTypeId option:selected").text();
+            if (x == "Select") {
+                x = "";
+            }
+            else {
+                var d = (new Date).getTime();                
+                x = x + "-" + d;
+            }
+            $("#SerialNumber").val(x);
+            $("#SerialNumber").prop("readonly", true);
+        }
+        else {
+            $("#SerialNumber").val("");
+            $("#SerialNumber").prop("readonly", false);
+        }
+    }
+</script>

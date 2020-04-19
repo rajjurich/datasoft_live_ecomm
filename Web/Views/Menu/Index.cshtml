@@ -1,0 +1,75 @@
+﻿@model IEnumerable<ViewModels.Menu>
+
+@{
+    ViewBag.Title = "View Menus";
+}
+
+<p class="text-muted m-t-0"><a href="@Url.Action("Create")"> <i class="fa fa-plus-circle"></i> Create New Menu </a></p>
+@using (Html.BeginForm(null))
+{
+    @Html.AntiForgeryToken()
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="card">
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table id="MenuTable" class="table">
+                            <thead>
+                                <tr>
+                                    <th class="text-center" width="70">#</th>
+                                    <th>@Html.DisplayNameFor(model => model.Title)</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @{
+                                    int i = 0;
+                                }
+                                @foreach (var item in Model)
+                                {
+                                    i++;
+                                    <tr>
+                                        <td class="text-center"> @i</td>
+                                        <td>
+                                            @Html.ActionLink(item.Title, "Details", new { id = item.MenuId })
+                                        </td>
+                                        <td class="text-nowrap">
+
+                                            <a href="@Url.Action("Edit", new { id = item.MenuId })" data-toggle="tooltip" data-original-title="Edit"> <i class="fa fa-pencil text-inverse m-r-10"></i></a>
+                                            <a id="deleteItem" class="deleteItem text-danger" href="javascript:void(0)" data-target="#modalConfirmation" data-toggle="modal" data-tooltip="tooltip" data-original-title="Delete" data-path="@Url.Action("Delete", "Menu", new { id = @item.MenuId })"><span class="fa fa-close"></span></a>
+
+                                        </td>
+                                    </tr>
+
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+                                    }
+
+<script type="text/javascript">
+
+    $(document).ready(function () {
+
+
+        $('#MenuTable').dataTable({
+            'autoWidth': false,
+            "columns": [
+                {
+                    "searchable": false,
+                    "orderable": false
+                },
+                null,
+                {
+                    "searchable": false,
+                    "orderable": false
+                }
+            ]
+        });
+    });
+
+</script>

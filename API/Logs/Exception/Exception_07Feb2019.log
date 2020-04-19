@@ -1,0 +1,6 @@
+07-Feb-2019 08:42:05
+API.Controllers.ProductsController
+Cannot insert duplicate key row in object 'dbo.Products' with unique index 'IX_ProductNameAndCompanyId'. The duplicate key value is (mouse, 1).
+The statement has been terminated.
+_____________________________________________________
+

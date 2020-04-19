@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <script src="https://code.jquery.com/jquery-1.12.4.js"
+            integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
+            crossorigin="anonymous"></script>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    $(document).ready(function () {
+
+        $.ajax({
+            url: 'http://petzapi.apiapps.in/api/categories',
+            success: function (response) {
+                alert('success');
+            },
+            error: function (jqXHR) {
+                alert(jqXHR)
+            }
+        })
+    });
+</script>

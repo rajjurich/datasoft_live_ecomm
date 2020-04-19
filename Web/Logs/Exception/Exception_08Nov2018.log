@@ -1,0 +1,46 @@
+08-Nov-2018 03:16:35
+Web.Controllers.CategoriesController
+The view 'Edit' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/categories/Edit.aspx
+~/Views/categories/Edit.ascx
+~/Views/Shared/Edit.aspx
+~/Views/Shared/Edit.ascx
+~/Views/categories/Edit.cshtml
+~/Views/categories/Edit.vbhtml
+~/Views/Shared/Edit.cshtml
+~/Views/Shared/Edit.vbhtml
+_____________________________________________________
+
+08-Nov-2018 03:16:41
+Web.Controllers.CategoriesController
+The view 'Details' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/categories/Details.aspx
+~/Views/categories/Details.ascx
+~/Views/Shared/Details.aspx
+~/Views/Shared/Details.ascx
+~/Views/categories/Details.cshtml
+~/Views/categories/Details.vbhtml
+~/Views/Shared/Details.cshtml
+~/Views/Shared/Details.vbhtml
+_____________________________________________________
+
+08-Nov-2018 03:19:09
+Web.Controllers.CategoriesController
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\web\1108b330\55361da0\App_Web_index.cshtml.b0869e74.adzjmmqp.0.cs(31): error CS0234: The type or namespace name 'Category' does not exist in the namespace 'IMS.API.Models.ViewModels' (are you missing an assembly reference?)
+_____________________________________________________
+
+08-Nov-2018 03:20:37
+Web.Controllers.CategoriesController
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\web\1108b330\55361da0\App_Web_edit.cshtml.b0869e74.2x92x-ez.0.cs(31): error CS0234: The type or namespace name 'Category' does not exist in the namespace 'IMS.API.Models.ViewModels' (are you missing an assembly reference?)
+_____________________________________________________
+
+08-Nov-2018 03:20:58
+Web.Controllers.CategoriesController
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\web\1108b330\55361da0\App_Web_edit.cshtml.b0869e74.wg3jfe3f.0.cs(31): error CS0234: The type or namespace name 'Category' does not exist in the namespace 'IMS.API.Models.ViewModels' (are you missing an assembly reference?)
+_____________________________________________________
+
+08-Nov-2018 03:21:08
+Web.Controllers.CategoriesController
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\web\1108b330\55361da0\App_Web_details.cshtml.b0869e74.ovmtjci4.0.cs(31): error CS0234: The type or namespace name 'Category' does not exist in the namespace 'IMS.API.Models.ViewModels' (are you missing an assembly reference?)
+_____________________________________________________
+

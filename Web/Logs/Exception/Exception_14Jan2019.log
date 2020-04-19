@@ -1,0 +1,65 @@
+14-Jan-2019 07:58:12
+Web.Controllers.CustomersController
+Cannot implicitly convert type 'System.Net.Http.HttpResponseMessage' to 'ViewModels.Company'
+_____________________________________________________
+
+14-Jan-2019 08:21:15
+Web.Controllers.CustomersController
+E:\Dropbox\projects\development\PETZ\Web\Views\Customers\Create.cshtml(28): error CS1061: 'CustomerInfo' does not contain a definition for 'CompanyId' and no extension method 'CompanyId' accepting a first argument of type 'CustomerInfo' could be found (are you missing a using directive or an assembly reference?)
+_____________________________________________________
+
+14-Jan-2019 08:22:16
+Web.Controllers.CustomersController
+E:\Dropbox\projects\development\PETZ\Web\Views\Customers\Create.cshtml(28): error CS1061: 'CustomerInfo' does not contain a definition for 'CompanyId' and no extension method 'CompanyId' accepting a first argument of type 'CustomerInfo' could be found (are you missing a using directive or an assembly reference?)
+_____________________________________________________
+
+14-Jan-2019 08:49:14
+Web.Controllers.CustomersController
+Cannot implicitly convert type 'System.Net.Http.HttpResponseMessage' to 'ViewModels.Company'
+_____________________________________________________
+
+14-Jan-2019 08:52:11
+Web.Controllers.CustomersController
+Cannot implicitly convert type 'System.Net.Http.HttpResponseMessage' to 'ViewModels.Company'
+_____________________________________________________
+
+14-Jan-2019 08:54:11
+Web.Controllers.CustomersController
+Cannot implicitly convert type 'System.Net.Http.HttpResponseMessage' to 'ViewModels.Company'
+_____________________________________________________
+
+14-Jan-2019 08:55:39
+Web.Controllers.CustomersController
+Cannot implicitly convert type 'System.Net.Http.HttpResponseMessage' to 'ViewModels.Company'
+_____________________________________________________
+
+14-Jan-2019 08:56:20
+Web.Controllers.VendorsController
+Cannot implicitly convert type 'System.Net.Http.HttpResponseMessage' to 'ViewModels.Company'
+_____________________________________________________
+
+14-Jan-2019 08:56:49
+Web.Controllers.VendorsController
+Cannot implicitly convert type 'System.Net.Http.HttpResponseMessage' to 'ViewModels.Company'
+_____________________________________________________
+
+14-Jan-2019 09:20:23
+Web.Controllers.ProductTypesController
+E:\Dropbox\projects\development\PETZ\Web\Views\ProductTypes\Edit.cshtml(17): error CS1061: 'ProductType' does not contain a definition for 'ProductId' and no extension method 'ProductId' accepting a first argument of type 'ProductType' could be found (are you missing a using directive or an assembly reference?)
+_____________________________________________________
+
+14-Jan-2019 09:21:53
+Web.Controllers.ProductTypesController
+E:\Dropbox\projects\development\PETZ\Web\Views\ProductTypes\Edit.cshtml(17): error CS1061: 'ProductType' does not contain a definition for 'ProductId' and no extension method 'ProductId' accepting a first argument of type 'ProductType' could be found (are you missing a using directive or an assembly reference?)
+_____________________________________________________
+
+14-Jan-2019 09:23:11
+Web.Controllers.ProductTypesController
+E:\Dropbox\projects\development\PETZ\Web\Views\ProductTypes\Edit.cshtml(17): error CS1061: 'ProductType' does not contain a definition for 'ProductId' and no extension method 'ProductId' accepting a first argument of type 'ProductType' could be found (are you missing a using directive or an assembly reference?)
+_____________________________________________________
+
+14-Jan-2019 09:24:08
+Web.Controllers.ProductTypesController
+E:\Dropbox\projects\development\PETZ\Web\Views\ProductTypes\Edit.cshtml(17): error CS1061: 'ProductType' does not contain a definition for 'ProductId' and no extension method 'ProductId' accepting a first argument of type 'ProductType' could be found (are you missing a using directive or an assembly reference?)
+_____________________________________________________
+

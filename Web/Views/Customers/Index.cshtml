@@ -1,0 +1,92 @@
+﻿@model IEnumerable<ViewModels.CustomerInfo>
+
+@{
+    ViewBag.Title = "View Customers";
+}
+
+
+<p class="text-muted m-t-0"><a href="@Url.Action("Create")"> <i class="fa fa-plus-circle"></i> Create New Customer </a></p>
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+<div class="row">
+    <div class="col-lg-12">
+        <div class="card">
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table id="VendorTable" class="table">
+                        <thead>
+                            <tr>
+                                <th class="text-center" width="70">#</th>
+                                <th>@Html.DisplayNameFor(model => model.CustomerName)</th>
+                                <th>@Html.DisplayNameFor(model => model.PrimaryMobileNumber)</th>
+                                <th>@Html.DisplayNameFor(model => model.EmailId)</th>
+                                <th>@Html.DisplayNameFor(model => model.CompanyName)</th>                             
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @{
+                                int i = 0;
+                            }
+                            @foreach (var item in Model)
+                            {
+                                i++;
+                                <tr>
+                                    <td class="text-center"> @i</td>
+                                    <td>
+                                        @Html.ActionLink(item.CustomerName, "Details", new { id = item.CustomerId })
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.PrimaryMobileNumber)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.EmailId)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.CompanyName)
+                                    </td>
+                                    <td class="text-nowrap">
+                                        
+                                            <a href="@Url.Action("Edit", new { id = item.CustomerId })" data-toggle="tooltip" data-original-title="Edit"> <i class="fa fa-pencil text-inverse m-r-10"></i></a>
+                                            <a id="deleteItem" class="deleteItem text-danger" href="javascript:void(0)" data-target="#modalConfirmation" data-toggle="modal" data-tooltip="tooltip" data-original-title="Delete" data-path="@Url.Action("Delete", "Customers", new { id = @item.CustomerId })"><span class="fa fa-close"></span></a>
+                                       
+                                    </td>
+                                </tr>
+
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+                                }
+<script type="text/javascript">
+
+    $(document).ready(function () {
+
+
+        $('#VendorTable').dataTable({
+            'autoWidth': false,
+            "columns": [
+                {
+                    "searchable": false,
+                    "orderable": false
+                },
+                null,
+                null,
+                null,
+                null,
+                {
+                    "searchable": false,
+                    "orderable": false
+                }
+            ]
+        });
+    });
+
+</script>
+

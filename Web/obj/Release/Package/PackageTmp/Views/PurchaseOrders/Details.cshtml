@@ -1,0 +1,159 @@
+﻿@model ViewModels.PurchaseOrderInfo
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<style>
+    #bg-text {
+    }
+</style>
+
+<!-- ============================================================== -->
+<!-- Start Page Content -->
+<!-- ============================================================== -->
+<div class="row">
+    <div class="col-md-12">
+        <div class="card card-body printableArea">
+            <h3>
+                <b>INVOICE</b> #@Html.DisplayFor(model => model.PurchaseOrderId)
+                <span class="pull-right">
+                    <b>Purchase Date :</b> <i class="fa fa-calendar"></i> @Html.DisplayFor(model => model.InvoiceDate)
+                </span>
+            </h3>
+            <hr>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="pull-left">
+                        <h3> &nbsp;<b class="text-danger">@Html.DisplayFor(model => model.CompanyName)</b></h3>
+                        <address>
+
+                            @*<p class="text-muted m-l-5">
+                                    E 104, Dharti-2,
+                                    <br /> Nr' Viswakarma Temple,
+                                    <br /> Talaja Road,
+                                    <br /> Bhavnagar - 364002
+                                </p>*@
+                        </address>
+                    </div>
+                    <div class="pull-right text-right">
+                        <h3>To,</h3>
+                        <h4 class="font-bold">@Html.DisplayFor(model => model.VendorName),</h4>
+                        <address>
+
+                            @*<p class="text-muted m-l-30">
+                                    E 104, Dharti-2,
+                                    <br /> Nr' Viswakarma Temple,
+                                    <br /> Talaja Road,
+                                    <br /> Bhavnagar - 364002
+                                </p>*@
+                        </address>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="table-responsive m-t-40" style="clear: both;">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th class="text-center">#</th>
+                                    <th>Description</th>
+                                    <th class="text-right">Weight in Kg</th>
+                                    <th class="text-right">Quantity</th>
+                                    <th class="text-right">Price</th>
+                                    <th class="text-right">Total</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @{
+                                    var i = 1;
+                                }
+                                @foreach (var item in Model.productsPurchaseOrder)
+                                {
+
+                                    <tr>
+                                        <td class="text-center">@i</td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.ProductName) <br />
+                                            (@Html.DisplayFor(modelItem => item.ManufacturerName))
+                                            <small>
+                                                <br /> @Html.DisplayFor(modelItem => item.ProductDescription)
+                                            </small>
+                                    </td>
+                                    <td class="text-right">@Html.DisplayFor(modelItem => item.WeightInKg)</td>
+                                    <td class="text-right">@Html.DisplayFor(modelItem => item.Quantity)</td>
+                                    <td class="text-right"> @Html.DisplayFor(modelItem => item.OrderPrice) </td>
+                                    <td class="text-right">@Html.DisplayFor(modelItem => item.RowTotal)</td>
+                                </tr>
+                                    i++;
+                                }
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="pull-right text-right">
+                        @*<p>Sub - Total amount: $13,848</p>
+                            <p>vat (10%) : $138 </p>*@
+                        <hr>
+                        <h3><b>Total :</b> @Html.DisplayFor(model => model.NetTotal)</h3>
+                    </div>
+                    <div class="clearfix"></div>
+                    <hr>
+                    <div class="text-right">
+
+                        <h3 class="text-muted" style="position: absolute;color: lightgray;opacity: 0.25;font-size: 3em;width: 100%;top: 0%;left:0%; text-align: center;z-index: 0;transform:rotate(300deg);-webkit-transform:rotate(300deg); background-repeat:repeat;">
+                            @Html.DisplayFor(model => model.IsPaid)
+                        </h3>
+                        @using (Html.BeginForm())
+                        {
+                            @Html.AntiForgeryToken()
+                            <a id="proceedtopay" class="deleteItem text-primary m-r-10" href="javascript:void(0)" data-target="#modalPaymentConfirmation" data-toggle="modal" data-path="@Url.Action("Paid", "SalesOrders", new { id = Model.PurchaseOrderId })">This order is unpaid do you want to proceed to payment</a>
+                        }
+                        <button id="print" class="btn btn-default btn-outline" type="button"> <span><i class="fa fa-print"></i> Print</span> </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div>
+    <a href="@Url.Action("Index")"> <i class="fa fa-mail-reply"></i> Back to List </a>
+</div>
+<script src="~/assets/js/jquery.PrintArea.js"></script>
+<script>
+    $(document).ready(function () {
+        var paidStatus = '@Html.DisplayFor(model => model.IsPaid)'
+        if (paidStatus == 'Paid') {
+            $('#proceedtopay').hide();
+        }
+    });
+    $(function () {
+
+        $("#print").on('click', function () {
+            var mode = 'iframe'; //popup
+            var close = mode == "popup";
+            var options = {
+                mode: mode,
+                popClose: close
+            };
+
+            $('#print').hide();
+            $('#proceedtopay').hide();
+            $("div.printableArea").printArea(options);
+
+
+            $('#print').show();
+
+            if (paidStatus == 'Paid') {
+                $('#proceedtopay').hide();
+            }
+            else {
+                $('#proceedtopay').show();
+            }
+        });
+    });
+</script>
+<!-- ============================================================== -->
+<!-- End PAge Content -->
+<!-- ============================================================== -->

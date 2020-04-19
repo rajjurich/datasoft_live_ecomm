@@ -1,0 +1,30 @@
+E:\Dropbox\projects\development\PETZ\Client\bin\Release\Client.dll
+E:\Dropbox\projects\development\PETZ\Client\bin\Release\Client.pdb
+E:\Dropbox\projects\development\PETZ\Client\bin\Release\Dtos.dll
+E:\Dropbox\projects\development\PETZ\Client\bin\Release\Newtonsoft.Json.dll
+E:\Dropbox\projects\development\PETZ\Client\bin\Release\System.Net.Http.Formatting.dll
+E:\Dropbox\projects\development\PETZ\Client\bin\Release\ViewModels.dll
+E:\Dropbox\projects\development\PETZ\Client\bin\Release\Dtos.pdb
+E:\Dropbox\projects\development\PETZ\Client\bin\Release\ViewModels.pdb
+E:\Dropbox\projects\development\PETZ\Client\bin\Release\Newtonsoft.Json.xml
+E:\Dropbox\projects\development\PETZ\Client\bin\Release\System.Net.Http.Formatting.xml
+E:\Dropbox\projects\development\PETZ\Client\obj\Release\Client.csprojResolveAssemblyReference.cache
+E:\Dropbox\projects\development\PETZ\Client\obj\Release\Client.dll
+E:\Dropbox\projects\development\PETZ\Client\obj\Release\Client.pdb
+E:\Dropbox\projects\development\PETZ\Client\bin\Release\Logger.dll
+E:\Dropbox\projects\development\PETZ\Client\bin\Release\Logger.pdb
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Client\bin\Release\Client.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Client\bin\Release\Client.pdb
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Client\bin\Release\Dtos.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Client\bin\Release\Logger.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Client\bin\Release\Newtonsoft.Json.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Client\bin\Release\System.Net.Http.Formatting.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Client\bin\Release\ViewModels.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Client\bin\Release\Dtos.pdb
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Client\bin\Release\Logger.pdb
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Client\bin\Release\ViewModels.pdb
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Client\bin\Release\Newtonsoft.Json.xml
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Client\bin\Release\System.Net.Http.Formatting.xml
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Client\obj\Release\Client.csprojResolveAssemblyReference.cache
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Client\obj\Release\Client.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Client\obj\Release\Client.pdb

@@ -1,0 +1,77 @@
+03-Mar-2019 07:53:24
+API.Controllers.MenusController
+Your license is invalid.
+_____________________________________________________
+
+03-Mar-2019 07:53:25
+API.Controllers.MenusController
+Your license is invalid.
+_____________________________________________________
+
+03-Mar-2019 07:58:44
+API.Controllers.ProductsController
+Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+_____________________________________________________
+
+03-Mar-2019 08:05:06
+API.Controllers.ProductsController
+Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+_____________________________________________________
+
+03-Mar-2019 08:05:55
+API.Controllers.ProductsController
+Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+_____________________________________________________
+
+03-Mar-2019 08:10:12
+API.Controllers.ProductsController
+Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+_____________________________________________________
+
+03-Mar-2019 08:10:26
+API.Controllers.ProductsController
+Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+_____________________________________________________
+
+03-Mar-2019 08:17:57
+API.Controllers.ProductsController
+Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+_____________________________________________________
+
+03-Mar-2019 08:18:01
+API.Controllers.ProductsController
+Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+_____________________________________________________
+
+03-Mar-2019 08:26:33
+API.Controllers.ProductsController
+Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+_____________________________________________________
+
+03-Mar-2019 08:28:04
+API.Controllers.ProductsController
+Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+_____________________________________________________
+
+03-Mar-2019 08:32:59
+The index with name 'IX_ProductNameAndWeightAndCompanyId' on table 'dbo.Products' has conflicting configuration for different columns in the index. All configuration for a given index on a given table must be consistent: Index attribute property 'IsUnique' = 'True' conflicts with index attribute property 'IsUnique' = 'False'
+_____________________________________________________
+
+03-Mar-2019 08:33:07
+The index with name 'IX_ProductNameAndWeightAndCompanyId' on table 'dbo.Products' has conflicting configuration for different columns in the index. All configuration for a given index on a given table must be consistent: Index attribute property 'IsUnique' = 'True' conflicts with index attribute property 'IsUnique' = 'False'
+_____________________________________________________
+
+03-Mar-2019 08:33:14
+The index with name 'IX_ProductNameAndWeightAndCompanyId' on table 'dbo.Products' has conflicting configuration for different columns in the index. All configuration for a given index on a given table must be consistent: Index attribute property 'IsUnique' = 'True' conflicts with index attribute property 'IsUnique' = 'False'
+_____________________________________________________
+
+03-Mar-2019 08:33:42
+API.Controllers.ProductsController
+Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+_____________________________________________________
+
+03-Mar-2019 08:35:48
+Introducing FOREIGN KEY constraint 'FK_dbo.Products_dbo.Companies_CompanyId' on table 'Products' may cause cycles or multiple cascade paths. Specify ON DELETE NO ACTION or ON UPDATE NO ACTION, or modify other FOREIGN KEY constraints.
+Could not create constraint or index. See previous errors.
+_____________________________________________________
+

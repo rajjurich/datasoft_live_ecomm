@@ -1,0 +1,111 @@
+23-Jan-2019 07:57:20
+Web.Controllers.ProductsController
+There is no ViewData item of type 'IEnumerable<SelectListItem>' that has the key 'CompanyId'.
+_____________________________________________________
+
+23-Jan-2019 08:00:07
+Web.Controllers.ProductsController
+There is no ViewData item of type 'IEnumerable<SelectListItem>' that has the key 'CompanyId'.
+_____________________________________________________
+
+23-Jan-2019 08:03:35
+Web.Controllers.ProductsController
+There is no ViewData item of type 'IEnumerable<SelectListItem>' that has the key 'CompanyId'.
+_____________________________________________________
+
+23-Jan-2019 08:07:00
+Web.Controllers.ProductsController
+There is no ViewData item of type 'IEnumerable<SelectListItem>' that has the key 'CompanyId'.
+_____________________________________________________
+
+23-Jan-2019 08:09:15
+Web.Controllers.ProductsController
+There is no ViewData item of type 'IEnumerable<SelectListItem>' that has the key 'CompanyId'.
+_____________________________________________________
+
+23-Jan-2019 09:11:55
+Web.Controllers.ProductsController
+Cannot implicitly convert type 'System.Net.Http.HttpResponseMessage' to 'ViewModels.Category'
+_____________________________________________________
+
+23-Jan-2019 09:13:36
+Web.Controllers.ProductsController
+There is no ViewData item of type 'IEnumerable<SelectListItem>' that has the key 'CompanyId'.
+_____________________________________________________
+
+23-Jan-2019 09:14:42
+Web.Controllers.ProductsController
+There is no ViewData item of type 'IEnumerable<SelectListItem>' that has the key 'CompanyId'.
+_____________________________________________________
+
+23-Jan-2019 09:16:24
+Web.Controllers.ProductsController
+Cannot implicitly convert type 'System.Net.Http.HttpResponseMessage' to 'ViewModels.Category'
+_____________________________________________________
+
+23-Jan-2019 09:17:11
+Web.Controllers.ProductsController
+Cannot implicitly convert type 'System.Net.Http.HttpResponseMessage' to 'ViewModels.Category'
+_____________________________________________________
+
+23-Jan-2019 09:18:25
+Web.Controllers.ProductsController
+Cannot implicitly convert type 'System.Net.Http.HttpResponseMessage' to 'ViewModels.Category'
+_____________________________________________________
+
+23-Jan-2019 09:19:43
+Web.Controllers.ProductsController
+Cannot implicitly convert type 'System.Net.Http.HttpResponseMessage' to 'ViewModels.Category'
+_____________________________________________________
+
+23-Jan-2019 09:27:34
+Web.Controllers.ProductsController
+E:\Dropbox\projects\development\PETZ\Web\Views\Products\Details.cshtml(73): error CS1061: 'ProductInfo' does not contain a definition for 'ProductDetailId' and no extension method 'ProductDetailId' accepting a first argument of type 'ProductInfo' could be found (are you missing a using directive or an assembly reference?)
+_____________________________________________________
+
+23-Jan-2019 09:28:09
+Web.Controllers.ProductsController
+E:\Dropbox\projects\development\PETZ\Web\Views\Products\Details.cshtml(73): error CS1061: 'ProductInfo' does not contain a definition for 'ProductDetailId' and no extension method 'ProductDetailId' accepting a first argument of type 'ProductInfo' could be found (are you missing a using directive or an assembly reference?)
+_____________________________________________________
+
+23-Jan-2019 09:28:49
+Web.Controllers.ProductsController
+E:\Dropbox\projects\development\PETZ\Web\Views\Products\Details.cshtml(73): error CS1061: 'ProductInfo' does not contain a definition for 'ProductDetailId' and no extension method 'ProductDetailId' accepting a first argument of type 'ProductInfo' could be found (are you missing a using directive or an assembly reference?)
+_____________________________________________________
+
+23-Jan-2019 09:30:10
+Web.Controllers.ProductsController
+E:\Dropbox\projects\development\PETZ\Web\Views\Products\Details.cshtml(74): error CS1061: 'ProductInfo' does not contain a definition for 'ProductDetailId' and no extension method 'ProductDetailId' accepting a first argument of type 'ProductInfo' could be found (are you missing a using directive or an assembly reference?)
+_____________________________________________________
+
+23-Jan-2019 09:31:05
+Web.Controllers.ProductsController
+E:\Dropbox\projects\development\PETZ\Web\Views\Products\Details.cshtml(74): error CS1061: 'ProductInfo' does not contain a definition for 'ProductDetailId' and no extension method 'ProductDetailId' accepting a first argument of type 'ProductInfo' could be found (are you missing a using directive or an assembly reference?)
+_____________________________________________________
+
+23-Jan-2019 09:31:43
+Web.Controllers.ProductsController
+The parameters dictionary contains a null entry for parameter 'id' of non-nullable type 'System.Int32' for method 'System.Threading.Tasks.Task`1[System.Web.Mvc.ActionResult] Details(Int32)' in 'Web.Controllers.ProductsController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+_____________________________________________________
+
+23-Jan-2019 09:36:47
+Web.Controllers.ProductsController
+E:\Dropbox\projects\development\PETZ\Web\Views\Products\Edit.cshtml(18): error CS1061: 'Product' does not contain a definition for 'ProductDetailId' and no extension method 'ProductDetailId' accepting a first argument of type 'Product' could be found (are you missing a using directive or an assembly reference?)
+_____________________________________________________
+
+23-Jan-2019 09:37:50
+Web.Controllers.ProductsController
+The ViewData item that has the key 'CompanyId' is of type 'System.Int32' but must be of type 'IEnumerable<SelectListItem>'.
+_____________________________________________________
+
+23-Jan-2019 09:38:19
+Web.Controllers.ProductsController
+The ViewData item that has the key 'CompanyId' is of type 'System.Int32' but must be of type 'IEnumerable<SelectListItem>'.
+_____________________________________________________
+
+23-Jan-2019 09:38:53
+Web.Controllers.ProductsController
+The ViewData item that has the key 'CompanyId' is of type 'System.Int32' but must be of type 'IEnumerable<SelectListItem>'.
+_____________________________________________________
+

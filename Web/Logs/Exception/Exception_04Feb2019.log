@@ -1,0 +1,75 @@
+04-Feb-2019 07:44:34
+Web.Controllers.SalesOrdersController
+Templates can be used only with field access, property access, single-dimension array index, or single-parameter custom indexer expressions.
+_____________________________________________________
+
+04-Feb-2019 07:53:54
+Web.Controllers.SalesOrdersController
+Object reference not set to an instance of an object.
+_____________________________________________________
+
+04-Feb-2019 07:55:31
+Web.Controllers.SalesOrdersController
+Object reference not set to an instance of an object.
+_____________________________________________________
+
+04-Feb-2019 08:54:44
+Web.Controllers.SalesOrdersController
+The method or operation is not implemented.
+_____________________________________________________
+
+04-Feb-2019 08:55:52
+Web.Controllers.SalesOrdersController
+The method or operation is not implemented.
+_____________________________________________________
+
+04-Feb-2019 08:58:54
+Web.Controllers.SalesOrdersController
+The model item passed into the dictionary is of type 'ViewModels.SalesOrderInfo', but this dictionary requires a model item of type 'ViewModels.SalesOrder'.
+_____________________________________________________
+
+04-Feb-2019 08:59:33
+Web.Controllers.SalesOrdersController
+The model item passed into the dictionary is of type 'ViewModels.SalesOrderInfo', but this dictionary requires a model item of type 'ViewModels.SalesOrder'.
+_____________________________________________________
+
+04-Feb-2019 09:00:36
+Web.Controllers.SalesOrdersController
+The model item passed into the dictionary is of type 'ViewModels.SalesOrderInfo', but this dictionary requires a model item of type 'ViewModels.SalesOrder'.
+_____________________________________________________
+
+04-Feb-2019 09:23:52
+Web.Controllers.SalesOrdersController
+E:\Dropbox\projects\development\PETZ\Web\Views\SalesOrders\Details.cshtml(17): error CS1061: 'SalesOrderInfo' does not contain a definition for 'InvoiceDate' and no extension method 'InvoiceDate' accepting a first argument of type 'SalesOrderInfo' could be found (are you missing a using directive or an assembly reference?)
+_____________________________________________________
+
+04-Feb-2019 09:27:59
+Web.Controllers.SalesOrdersController
+Templates can be used only with field access, property access, single-dimension array index, or single-parameter custom indexer expressions.
+_____________________________________________________
+
+04-Feb-2019 09:28:40
+Web.Controllers.SalesOrdersController
+Templates can be used only with field access, property access, single-dimension array index, or single-parameter custom indexer expressions.
+_____________________________________________________
+
+04-Feb-2019 09:29:22
+Web.Controllers.SalesOrdersController
+Templates can be used only with field access, property access, single-dimension array index, or single-parameter custom indexer expressions.
+_____________________________________________________
+
+04-Feb-2019 09:30:00
+Web.Controllers.SalesOrdersController
+E:\Dropbox\projects\development\PETZ\Web\Views\SalesOrders\Details.cshtml(17): error CS1501: No overload for method 'ToString' takes 1 arguments
+_____________________________________________________
+
+04-Feb-2019 09:30:23
+Web.Controllers.SalesOrdersController
+Templates can be used only with field access, property access, single-dimension array index, or single-parameter custom indexer expressions.
+_____________________________________________________
+
+04-Feb-2019 09:33:22
+Web.Controllers.SalesOrdersController
+Templates can be used only with field access, property access, single-dimension array index, or single-parameter custom indexer expressions.
+_____________________________________________________
+

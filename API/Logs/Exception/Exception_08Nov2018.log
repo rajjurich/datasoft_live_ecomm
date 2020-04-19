@@ -1,0 +1,6 @@
+08-Nov-2018 03:29:42
+API.Controllers.CategoriesController
+Cannot insert duplicate key row in object 'dbo.Categories' with unique index 'IX_CategoryName'. The duplicate key value is (test).
+The statement has been terminated.
+_____________________________________________________
+

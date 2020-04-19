@@ -1,0 +1,66 @@
+13-Jan-2019 09:33:22
+Controllers.CompaniesController
+Cannot insert duplicate key row in object 'dbo.Companies' with unique index 'IX_CompanyName'. The duplicate key value is (company one).
+The statement has been terminated.
+_____________________________________________________
+
+13-Jan-2019 09:37:27
+Controllers.CompaniesController
+Cannot insert duplicate key row in object 'dbo.Companies' with unique index 'IX_CompanyName'. The duplicate key value is (company one).
+The statement has been terminated.
+_____________________________________________________
+
+13-Jan-2019 09:40:50
+Controllers.CompaniesController
+Cannot insert duplicate key row in object 'dbo.Companies' with unique index 'IX_CompanyName'. The duplicate key value is (company one).
+The statement has been terminated.
+_____________________________________________________
+
+13-Jan-2019 09:41:08
+Controllers.CompaniesController
+Cannot insert duplicate key row in object 'dbo.Companies' with unique index 'IX_PrimaryMobileNumber'. The duplicate key value is (9999999999).
+The statement has been terminated.
+_____________________________________________________
+
+13-Jan-2019 09:44:11
+API.Controllers.VendorsController
+Cannot insert duplicate key row in object 'dbo.Vendors' with unique index 'IX_PrimaryMobileNumber'. The duplicate key value is (9999999997).
+The statement has been terminated.
+_____________________________________________________
+
+13-Jan-2019 09:47:27
+API.Controllers.VendorsController
+Cannot insert duplicate key row in object 'dbo.Vendors' with unique index 'IX_VendorNameAndCompanyID'. The duplicate key value is (vendor one, 6).
+The statement has been terminated.
+_____________________________________________________
+
+13-Jan-2019 09:49:22
+API.Controllers.VendorsController
+Cannot insert duplicate key row in object 'dbo.Vendors' with unique index 'IX_VendorNameAndCompanyID'. The duplicate key value is (vendor one, 6).
+The statement has been terminated.
+_____________________________________________________
+
+13-Jan-2019 09:51:43
+API.Controllers.VendorsController
+Cannot insert duplicate key row in object 'dbo.Vendors' with unique index 'IX_PrimaryMobileNumber'. The duplicate key value is (9999999999).
+The statement has been terminated.
+_____________________________________________________
+
+13-Jan-2019 09:55:48
+API.Controllers.VendorsController
+Cannot insert duplicate key row in object 'dbo.Vendors' with unique index 'IX_VendorNameAndCompanyID'. The duplicate key value is (vendor one, 6).
+The statement has been terminated.
+_____________________________________________________
+
+13-Jan-2019 09:57:41
+API.Controllers.VendorsController
+Cannot insert duplicate key row in object 'dbo.Vendors' with unique index 'IX_VendorNameAndCompanyID'. The duplicate key value is (vendor one, 6).
+The statement has been terminated.
+_____________________________________________________
+
+13-Jan-2019 09:57:53
+API.Controllers.VendorsController
+Cannot insert duplicate key row in object 'dbo.Vendors' with unique index 'IX_VendorNameAndCompanyID'. The duplicate key value is (vendor one, 6).
+The statement has been terminated.
+_____________________________________________________
+

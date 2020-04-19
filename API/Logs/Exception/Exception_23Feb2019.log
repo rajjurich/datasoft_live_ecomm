@@ -1,0 +1,29 @@
+23-Feb-2019 12:01:32
+API.Controllers.GroomingController
+
+Unmapped members were found. Review the types and members below.
+Add a custom mapping expression, ignore, add a custom resolver, or modify the source/destination type
+For no matching constructor, add a no-arg ctor, add optional arguments, or map all of the constructor parameters
+=============================================
+AutoMapper created this type map for you, but your types cannot be mapped using the current configuration.
+GroomingDto -> Grooming (Destination member list)
+Dtos.GroomingDto -> Domain.Entities.Grooming (Destination member list)
+
+Unmapped properties:
+CreatedDate
+ModifiedDate
+Customer
+Pet
+
+_____________________________________________________
+
+23-Feb-2019 12:03:33
+API.Controllers.GroomingController
+Mapper already initialized. You must call Initialize once per application domain/process.
+_____________________________________________________
+
+23-Feb-2019 01:08:50
+API.Controllers.CustomersController
+The operation was canceled.
+_____________________________________________________
+

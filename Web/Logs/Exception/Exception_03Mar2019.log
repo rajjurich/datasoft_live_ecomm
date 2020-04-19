@@ -1,0 +1,37 @@
+03-Mar-2019 07:53:01
+access token null
+_____________________________________________________
+
+03-Mar-2019 08:03:43
+access token null
+_____________________________________________________
+
+03-Mar-2019 08:07:43
+access token null
+_____________________________________________________
+
+03-Mar-2019 08:17:10
+access token null
+_____________________________________________________
+
+03-Mar-2019 08:25:12
+access token null
+_____________________________________________________
+
+03-Mar-2019 08:27:39
+access token null
+_____________________________________________________
+
+03-Mar-2019 08:33:00
+access token null
+_____________________________________________________
+
+03-Mar-2019 08:33:08
+access token null
+_____________________________________________________
+
+03-Mar-2019 08:35:55
+Web.Controllers.ProductsController
+E:\Dropbox\projects\development\PETZ\Web\Views\Products\Details.cshtml(41): error CS1061: 'ProductInfo' does not contain a definition for 'Quatity' and no extension method 'Quatity' accepting a first argument of type 'ProductInfo' could be found (are you missing a using directive or an assembly reference?)
+_____________________________________________________
+

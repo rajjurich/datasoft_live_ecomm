@@ -1,0 +1,120 @@
+﻿@model IEnumerable<ViewModels.ProductInfo>
+
+@{
+    ViewBag.Title = "View Products";
+}
+
+
+
+<p class="text-muted m-t-0"><a href="@Url.Action("Create")"> <i class="fa fa-plus-circle"></i> Create New Product</a></p>
+@using (Html.BeginForm(null))
+{
+    @Html.AntiForgeryToken()
+<div class="row">
+    <div class="col-lg-12">
+        <div class="card">
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table id="ProductTable" class="table">
+                        <thead>
+                            <tr>
+                                <th class="text-center" width="70">#</th>                                
+                                <th>@Html.DisplayNameFor(model => model.ProductName)</th>
+                                @*<th>@Html.DisplayNameFor(model => model.WeightInKg)</th>*@
+                                <th>@Html.DisplayNameFor(model => model.Quantity)</th>
+                                <th>@Html.DisplayNameFor(model => model.ProductTypeName)</th>
+                                <th>@Html.DisplayNameFor(model => model.ManufacturerName)</th>
+                                <th>@Html.DisplayNameFor(model => model.CategoryName)</th>
+                                <th>@Html.DisplayNameFor(model => model.CompanyName)</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @{
+                                int i = 0;
+                            }
+                            @foreach (var item in Model)
+                            {
+                                i++;
+                                <tr>
+                                    <td class="text-center"> @i</td>
+                                    <td>
+                                        @Html.ActionLink(item.ProductName, "Details", new { id = item.ProductId })
+                                    </td>
+                                    @*<td>
+                                        @Html.DisplayFor(modelItem => item.WeightInKg)
+                                    </td>*@
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Quantity)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.ProductTypeName)
+                                    </td>
+                                    
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.ManufacturerName)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.CategoryName)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.CompanyName)
+                                    </td>
+                                    <td class="text-nowrap">
+                                        
+                                            <a href="@Url.Action("Edit", new { id = item.ProductId })" data-toggle="tooltip" data-original-title="Edit"> <i class="fa fa-pencil text-inverse m-r-10"></i></a>
+                                            <a id="deleteItem" class="deleteItem text-danger" href="javascript:void(0)" data-target="#modalConfirmation" data-toggle="modal" data-tooltip="tooltip" data-original-title="Delete" data-path="@Url.Action("Delete", "Products", new { id = @item.ProductId })"><span class="fa fa-close"></span></a>
+                                       
+                                    </td>
+                                </tr>
+
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+                                }
+
+
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        $('#ProductTable').dataTable({
+            'autoWidth': false,
+            "columns": [
+                {
+                    "searchable": false,
+                    "orderable": false
+                },
+                //null,
+                null,
+                null,
+                null,
+                //{
+                //    'data': 'ProductId',
+                //    'render': function (data, type, full, meta) {
+                //        var currentCell = $("#ProductDetailTable").DataTable().cells({ "row": meta.row, "column": meta.col }).nodes(0);
+                //        $.ajax({
+                //            url: "" + '/api/values/' + data
+                //        }).done(function (data) {
+                //            $(currentCell).text(data);
+                //        });
+                //        return null;
+                //    }
+                //},
+                null,
+                null,
+                null,
+                {
+                    "searchable": false,
+                    "orderable": false
+                }
+            ]
+        });
+    });
+
+</script>

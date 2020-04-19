@@ -1,0 +1,90 @@
+13-Jan-2019 08:56:50
+Web.Controllers.ProductsController
+Object reference not set to an instance of an object.
+_____________________________________________________
+
+13-Jan-2019 08:57:09
+Web.Controllers.ProductsController
+Object reference not set to an instance of an object.
+_____________________________________________________
+
+13-Jan-2019 08:58:15
+Web.Controllers.ProductsController
+Object reference not set to an instance of an object.
+_____________________________________________________
+
+13-Jan-2019 08:58:23
+Web.Controllers.ProductsController
+Object reference not set to an instance of an object.
+_____________________________________________________
+
+13-Jan-2019 08:58:53
+Web.Controllers.ProductsController
+Object reference not set to an instance of an object.
+_____________________________________________________
+
+13-Jan-2019 09:00:18
+Web.Controllers.ProductsController
+Object reference not set to an instance of an object.
+_____________________________________________________
+
+13-Jan-2019 09:02:31
+Web.Controllers.ProductsController
+The model item passed into the dictionary is of type 'System.Collections.Generic.List`1[ViewModels.Product]', but this dictionary requires a model item of type 'System.Collections.Generic.IEnumerable`1[ViewModels.ProductInfo]'.
+_____________________________________________________
+
+13-Jan-2019 09:03:45
+Web.Controllers.ProductsController
+The model item passed into the dictionary is of type 'System.Collections.Generic.List`1[ViewModels.Product]', but this dictionary requires a model item of type 'System.Collections.Generic.IEnumerable`1[ViewModels.ProductInfo]'.
+_____________________________________________________
+
+13-Jan-2019 09:06:28
+Web.Controllers.ProductsController
+The model item passed into the dictionary is of type 'System.Collections.Generic.List`1[ViewModels.Product]', but this dictionary requires a model item of type 'System.Collections.Generic.IEnumerable`1[ViewModels.ProductInfo]'.
+_____________________________________________________
+
+13-Jan-2019 09:11:26
+Web.Controllers.ResourcesController
+The model item passed into the dictionary is of type 'System.Collections.Generic.List`1[ViewModels.Resource]', but this dictionary requires a model item of type 'System.Collections.Generic.IEnumerable`1[ViewModels.ResourceInfo]'.
+_____________________________________________________
+
+13-Jan-2019 09:12:30
+Web.Controllers.ResourcesController
+The model item passed into the dictionary is of type 'System.Collections.Generic.List`1[ViewModels.Resource]', but this dictionary requires a model item of type 'System.Collections.Generic.IEnumerable`1[ViewModels.ResourceInfo]'.
+_____________________________________________________
+
+13-Jan-2019 09:13:31
+Web.Controllers.ResourcesController
+The model item passed into the dictionary is of type 'System.Collections.Generic.List`1[ViewModels.Resource]', but this dictionary requires a model item of type 'System.Collections.Generic.IEnumerable`1[ViewModels.ResourceInfo]'.
+_____________________________________________________
+
+13-Jan-2019 09:29:31
+Web.Controllers.VendorsController
+Cannot implicitly convert type 'System.Net.Http.HttpResponseMessage' to 'ViewModels.Company'
+_____________________________________________________
+
+13-Jan-2019 09:42:03
+Web.Controllers.VendorsController
+Cannot implicitly convert type 'System.Net.Http.HttpResponseMessage' to 'ViewModels.Company'
+_____________________________________________________
+
+13-Jan-2019 09:44:41
+Web.Controllers.VendorsController
+There is no ViewData item of type 'IEnumerable<SelectListItem>' that has the key 'CompanyId'.
+_____________________________________________________
+
+13-Jan-2019 09:47:36
+Web.Controllers.VendorsController
+There is no ViewData item of type 'IEnumerable<SelectListItem>' that has the key 'CompanyId'.
+_____________________________________________________
+
+13-Jan-2019 09:49:29
+Web.Controllers.VendorsController
+There is no ViewData item of type 'IEnumerable<SelectListItem>' that has the key 'CompanyId'.
+_____________________________________________________
+
+13-Jan-2019 09:53:01
+Web.Controllers.VendorsController
+There is no ViewData item of type 'IEnumerable<SelectListItem>' that has the key 'CompanyId'.
+_____________________________________________________
+

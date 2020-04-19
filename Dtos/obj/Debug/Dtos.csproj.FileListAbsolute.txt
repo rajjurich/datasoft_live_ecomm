@@ -1,0 +1,9 @@
+E:\Dropbox\projects\development\PETZ\Dtos\bin\Debug\Dtos.dll
+E:\Dropbox\projects\development\PETZ\Dtos\bin\Debug\Dtos.pdb
+E:\Dropbox\projects\development\PETZ\Dtos\obj\Debug\Dtos.dll
+E:\Dropbox\projects\development\PETZ\Dtos\obj\Debug\Dtos.pdb
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Dtos\bin\Debug\Dtos.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Dtos\bin\Debug\Dtos.pdb
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Dtos\obj\Debug\Dtos.csprojResolveAssemblyReference.cache
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Dtos\obj\Debug\Dtos.dll
+C:\Users\Rajneesh\Google Drive\PROJECTS\Development\ECommerce\Dtos\obj\Debug\Dtos.pdb

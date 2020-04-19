@@ -1,0 +1,200 @@
+﻿@model ViewModels.PurchaseOrder
+<script src="~/assets/node-modules/dff/dff.js"></script>
+@{
+    ViewBag.Title = "Create";
+}
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div class="row">
+        <div class="col-lg-12 col-xlg-12 col-md-12">
+            <div class="card">
+                <div class="card-body">
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                    @Html.HiddenFor(model => model.VendorId)
+                    <div class="form-material controls">
+                        <div class="row">
+                            <div class="col-md-3 ">
+                                <div id="CustomerMobileNumber" class="form-group">
+                                    @*<input type="text" class="typeahead" />*@
+                                    @Html.LabelFor(model => model.PrimaryMobileNumber, htmlAttributes: new { @class = "control-label" })
+                                    @Html.EditorFor(model => model.PrimaryMobileNumber, new { htmlAttributes = new { @class = "form-control", placeholder = "Vendor Mobile Number", maxlength = 10 } })
+                                    @Html.ValidationMessageFor(model => model.PrimaryMobileNumber, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                            <div class="col-md-3 ">
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.VendorName, htmlAttributes: new { @class = "control-label" })
+                                    @Html.EditorFor(model => model.VendorName, new { htmlAttributes = new { @class = "form-control", placeholder = "Vendor Name", maxlength = 100 } })
+                                    @Html.ValidationMessageFor(model => model.VendorName, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                            <div class="col-md-3 ">
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.CompanyId, htmlAttributes: new { @class = "control-label" })
+                                    @Html.DropDownListFor(model => model.CompanyId, (IEnumerable<SelectListItem>)ViewData["Companies"], "Select", new { @class = "form-control select2", @style = "width:100%" })
+                                    @Html.ValidationMessageFor(model => model.CompanyId, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                            <div class="col-md-3 ">
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.ResourceId, htmlAttributes: new { @class = "control-label" })
+                                    @Html.DropDownListFor(model => model.ResourceId, (IEnumerable<SelectListItem>)ViewData["Resources"], "Select", new { @class = "form-control select2", @style = "width:100%" })
+                                    @Html.ValidationMessageFor(model => model.ResourceId, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                        </div>
+                        <div class="input-group" id="ProductName">
+                            <div class="form-group col-md-12">
+                                @Html.LabelFor(model => model.ProductId, htmlAttributes: new { @class = "control-label" })
+                                @Html.DropDownListFor(model => model.ProductId, (IEnumerable<SelectListItem>)ViewData["Products"], "Select", new { @class = "form-control select2", @style = "width:100%" })
+                                @Html.ValidationMessageFor(model => model.ProductId, "", new { @class = "text-danger" })
+                            </div>                            
+                        </div>
+                    </div>
+                    <p><h4 class="text-muted">Added Items : <label id="itemCount">0</label></h4></p>
+                    <div id="itemDiv">
+
+                    </div>
+                    <hr />
+                    <div class="form-actions">
+                        <div class="custom-control custom-checkbox mr-sm-2 mb-3 pull-left">
+                            @Html.EditorFor(model => model.IsPaid, new { htmlAttributes = new { @class = "custom-control-input" } })
+                            @Html.LabelFor(model => model.IsPaid, htmlAttributes: new { @class = "custom-control-label", @for = "IsPaid" })
+                            @Html.ValidationMessageFor(model => model.IsPaid, "", new { @class = "text-danger" })
+                        </div>
+                        <button type="submit" id="btnSubmit" class="btn btn-success pull-right"> <i class="fa fa-check"></i> Save</button>
+                    </div>
+                </div>
+
+              
+            </div>
+        </div>
+        <!-- Column -->
+    </div>
+    
+}
+<div>
+    <a href="@Url.Action("Index")"> <i class="fa fa-mail-reply"></i> Back to List </a>
+</div>
+
+<script type="text/javascript">
+    var objItem = [];
+    function remove_products_list(rid, srno) {
+
+        $('.removeclass' + rid).remove();
+        objItem.splice(objItem.indexOf(srno), 1);
+        $("#itemCount").text(objItem.length);
+    }
+    
+
+    $(document).ready(function () {
+        var uri = '@System.Configuration.ConfigurationManager.AppSettings["uri"].ToString()';
+        var token = '@Session["accessToken"].ToString()';
+        var headers = {};
+        if (token) {
+            headers.Authorization = 'Bearer ' + token;
+        }
+
+        $("#PrimaryMobileNumber").blur(function () {
+            if ($("#PrimaryMobileNumber").val().length = 10) {
+                $.ajax({
+                    headers: headers,
+                    method: 'GET',
+                    url: uri + "api/Vendors/GetVendorInfo/" + $("#PrimaryMobileNumber").val(),
+                    success: function (data) {
+                        $("#VendorName").val(data.VendorName);
+                        $("#VendorId").val(data.VendorId);
+                    },
+                    error: function (jqXHR) {
+                        $("#VendorName").val("");
+                        $("#VendorId").val("");
+                    }
+                });
+            }
+        });
+
+
+       
+
+        $("#ProductId").change(function () {
+            AddProduct();
+        });
+
+        var product = -1;
+
+
+        function AddProduct() {
+
+            var obj = $("#ProductId").val();
+            var objText = $("#ProductId").select2('data')[0]['text'].split(" - ");
+            if (objText[0] != "Select") {
+
+                if (jQuery.inArray(obj, objItem) < 0) {
+                    product++;
+                    @{
+                            var i = -1;
+                        }
+                    objItem.push(obj);
+
+                    var row = '';
+                    row = row + '<div class="row removeclass' + product + '">';
+                    row = row + '<div class="col-md-4"><div class="form-group" style="margin-bottom: 0px;"><input id="productsPurchaseOrders_' + product + '__ProductId" name="productsPurchaseOrders[' + product + '].ProductId"  type="hidden" value="' + obj + '" />' + objText[0] + '</div></div>';
+
+                    var price = '@Html.EditorFor(model => Model.productsPurchaseOrders[i].OrderPrice, new { htmlAttributes = new { @class = "form-control form-control-sm", placeholder = "Price", maxlength=10 } })';
+                    var priceVal = '@Html.ValidationMessageFor(model => Model.productsPurchaseOrders[i].OrderPrice, "", new { @class = "text-danger" })';
+                    price = price.replace("[-1]", "[" + product + "]");
+                    priceVal = priceVal.replace("[-1]", "[" + product + "]");
+                    price = price.replace("-1", product);
+                    priceVal = priceVal.replace("-1", product);
+                    row = row + '<div class="col-md-3"><div class="form-group">' + price + '<span><small>' + priceVal + '</small></span></div></div>';
+
+
+                    var quantity = '@Html.EditorFor(model => Model.productsPurchaseOrders[i].Quantity, new { htmlAttributes = new { @class = "form-control form-control-sm", placeholder = "Quantity", maxlength = 2 } })';
+                    var quantityVal = '@Html.ValidationMessageFor(model => Model.productsPurchaseOrders[i].Quantity, "", new { @class = "text-danger" })';
+                    quantity = quantity.replace("[-1]", "[" + product + "]");
+                    quantityVal = quantityVal.replace("[-1]", "[" + product + "]");
+                    quantity = quantity.replace("-1", product);
+                    quantityVal = quantityVal.replace("-1", product);
+                    row = row + '<div class="col-md-2"><div class="form-group">' + quantity + '<span><small>' + quantityVal + '</small></span></div></div>';
+
+
+                    row = row + '<div class="col-md-1"><button class="btn btn-sm btn-danger" type="button" onclick="remove_products_list(' + product + ',' + obj + ');"> <i class="fa fa-minus"></i> </button></div>';
+                    row = row + '</div>';
+                    $("#itemDiv").append(row);
+
+                    console.log("");
+
+                    var form = $("form");
+                    form.data('validator', null);
+                    $.validator.unobtrusive.parse(form);
+                    $("#itemCount").text(objItem.length);
+
+
+
+                }
+                else {
+                    swal("Already added");
+                }
+
+                $("#ProductId").clear();
+            }
+
+            
+        }
+        $("form").submit(function () {
+            var rowCount = objItem.length;
+
+            if (rowCount < 1) {
+                swal("No Product Added, Please add atleast one product");
+                $("#ProductId").focus();
+                return false;
+            }
+            else {
+                return true;
+            }
+
+
+        });
+    });
+</script>

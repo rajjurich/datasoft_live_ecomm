@@ -1,0 +1,159 @@
+23-Jan-2019 07:57:10
+API.Controllers.ProductsController
+The INSERT statement conflicted with the FOREIGN KEY constraint "FK_dbo.Products_dbo.ProductTypes_ProductId". The conflict occurred in database "petzDb", table "dbo.ProductTypes", column 'ProductTypeId'.
+The statement has been terminated.
+_____________________________________________________
+
+23-Jan-2019 07:59:21
+API.Controllers.ProductsController
+The INSERT statement conflicted with the FOREIGN KEY constraint "FK_dbo.Products_dbo.ProductTypes_ProductId". The conflict occurred in database "petzDb", table "dbo.ProductTypes", column 'ProductTypeId'.
+The statement has been terminated.
+_____________________________________________________
+
+23-Jan-2019 08:03:35
+API.Controllers.ProductsController
+The INSERT statement conflicted with the FOREIGN KEY constraint "FK_dbo.Products_dbo.ProductTypes_ProductId". The conflict occurred in database "petzDb", table "dbo.ProductTypes", column 'ProductTypeId'.
+The statement has been terminated.
+_____________________________________________________
+
+23-Jan-2019 08:06:39
+API.Controllers.ProductsController
+The INSERT statement conflicted with the FOREIGN KEY constraint "FK_dbo.Products_dbo.ProductTypes_ProductId". The conflict occurred in database "petzDb", table "dbo.ProductTypes", column 'ProductTypeId'.
+The statement has been terminated.
+_____________________________________________________
+
+23-Jan-2019 08:08:47
+API.Controllers.ProductsController
+The INSERT statement conflicted with the FOREIGN KEY constraint "FK_dbo.Products_dbo.ProductTypes_ProductId". The conflict occurred in database "petzDb", table "dbo.ProductTypes", column 'ProductTypeId'.
+The statement has been terminated.
+_____________________________________________________
+
+23-Jan-2019 08:15:00
+Automatic migration was not applied because it would result in data loss. Set AutomaticMigrationDataLossAllowed to 'true' on your DbMigrationsConfiguration to allow application of automatic migrations even if they might cause data loss. Alternately, use Update-Database with the '-Force' option, or scaffold an explicit migration.
+_____________________________________________________
+
+23-Jan-2019 08:16:40
+ALTER TABLE ALTER COLUMN failed because column 'ProductId' does not exist in table 'Products'.
+_____________________________________________________
+
+23-Jan-2019 08:19:52
+ALTER TABLE ALTER COLUMN failed because column 'ProductId' does not exist in table 'Products'.
+_____________________________________________________
+
+23-Jan-2019 08:22:56
+Either the parameter @objname is ambiguous or the claimed @objtype (INDEX) is wrong.
+_____________________________________________________
+
+23-Jan-2019 08:25:13
+Either the parameter @objname is ambiguous or the claimed @objtype (INDEX) is wrong.
+_____________________________________________________
+
+23-Jan-2019 08:27:18
+API.Controllers.MenusController
+Your license is invalid.
+_____________________________________________________
+
+23-Jan-2019 08:29:14
+API.Controllers.MenusController
+Your license is invalid.
+_____________________________________________________
+
+23-Jan-2019 08:32:13
+API.Controllers.MenusController
+Your license is invalid.
+_____________________________________________________
+
+23-Jan-2019 08:32:52
+API.Controllers.MenusController
+Your license is invalid.
+_____________________________________________________
+
+23-Jan-2019 08:36:03
+API.Controllers.MenusController
+Your license is invalid.
+_____________________________________________________
+
+23-Jan-2019 08:42:07
+API.Controllers.MenusController
+Your license is invalid.
+_____________________________________________________
+
+23-Jan-2019 08:44:01
+API.Controllers.MenusController
+Your license is invalid.
+_____________________________________________________
+
+23-Jan-2019 08:45:26
+API.Controllers.MenusController
+Your license is invalid.
+_____________________________________________________
+
+23-Jan-2019 08:52:14
+API.Controllers.MenusController
+Your license is invalid.
+_____________________________________________________
+
+23-Jan-2019 08:52:25
+API.Controllers.MenusController
+Your license is invalid.
+_____________________________________________________
+
+23-Jan-2019 08:53:12
+API.Controllers.MenusController
+Your license is invalid.
+_____________________________________________________
+
+23-Jan-2019 08:53:38
+API.Controllers.MenusController
+Your license is invalid.
+_____________________________________________________
+
+23-Jan-2019 08:57:28
+API.Controllers.MenusController
+Your license is invalid.
+_____________________________________________________
+
+23-Jan-2019 08:59:28
+API.Controllers.MenusController
+Your license is invalid.
+_____________________________________________________
+
+23-Jan-2019 09:00:34
+API.Controllers.MenusController
+Your license is invalid.
+_____________________________________________________
+
+23-Jan-2019 09:01:05
+API.Controllers.MenusController
+Your license is invalid.
+_____________________________________________________
+
+23-Jan-2019 09:01:57
+API.Controllers.MenusController
+Your license is invalid.
+_____________________________________________________
+
+23-Jan-2019 09:11:06
+API.Controllers.CategoriesController
+Cannot insert duplicate key row in object 'dbo.Categories' with unique index 'IX_CategoryNameAndIsDeleted'. The duplicate key value is (general, 0).
+The statement has been terminated.
+_____________________________________________________
+
+23-Jan-2019 09:13:23
+API.Controllers.ProductsController
+Cannot insert duplicate key row in object 'dbo.Products' with unique index 'IX_ProductNameAndCompanyId'. The duplicate key value is (a, 1).
+The statement has been terminated.
+_____________________________________________________
+
+23-Jan-2019 09:14:16
+API.Controllers.ProductsController
+Cannot insert duplicate key row in object 'dbo.Products' with unique index 'IX_ProductNameAndCompanyId'. The duplicate key value is (a, 1).
+The statement has been terminated.
+_____________________________________________________
+
+23-Jan-2019 09:15:18
+Controllers.CompaniesController
+Cannot insert duplicate key row in object 'dbo.Companies' with unique index 'IX_CompanyName'. The duplicate key value is (c1).
+The statement has been terminated.
+_____________________________________________________
+
